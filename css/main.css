@@ -5,6 +5,7 @@ body {
 #top {
   width: 100%;
   height: 53px;
+  color: white;
   background-color: #2d2827;
   position: absolute;
   top: 0;
@@ -12,27 +13,29 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
 
-.header-image {
-  background-image: url(../images/girl-1828536_1280.jpg);
+header {
+  text-align: center;
+  background-color: #666666;
   height: 630vh;
-  width: 100%;
   background-repeat: no-repeat; }
 
 .ship {
   width: 349px;
   height: 9px;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: normal;
   text-transform: uppercase;
   font-style: normal;
+  margin-top: 5px;
   font-stretch: normal;
   line-height: 1.83;
   letter-spacing: 2.4px;
   text-align: left;
-  color: #999999; }
+  color: #999999;
+  white-space: nowrap; }
 
-.fas.fa-angle-down {
+.fas .fa-angle-down {
   width: 7px;
   height: 5px;
   font-family: FontAwesome;
@@ -45,8 +48,16 @@ body {
   text-align: center;
   color: #999999; }
 
+i {
+  margin-left: 8px; }
+
+#top span {
+  padding: 5px;
+  color: #999999;
+  font-size: 12px; }
+
 .icons {
-  width: 111px;
+  width: 297px;
   height: 15px;
   font-family: FontAwesome;
   font-size: 15px;
@@ -58,5 +69,40 @@ body {
   text-align: center;
   color: #999999;
   float: right; }
+
+.navbar {
+  margin: 0;
+  padding: 0; }
+
+.navbar ul {
+  padding-top: 5rem; }
+
+.navbar li {
+  list-style: none;
+  display: inline;
+  padding: 15px; }
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif; }
+
+.nateb {
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.8;
+  letter-spacing: 6px;
+  text-align: left;
+  color: #fffefe; }
+
+.search {
+  color: white; }
+
+.shop {
+  color: white; }
 
 /*# sourceMappingURL=main.css.map */

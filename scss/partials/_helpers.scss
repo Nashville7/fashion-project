@@ -2,6 +2,7 @@
   // width: 1900px;
   width: 100%;
   height: 53px;
+  color: white;
   background-color: #2d2827;
   position: absolute;
   top: 0;
@@ -10,11 +11,13 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-.header-image {
-  background-image: url(../images/girl-1828536_1280.jpg);
+header {
+  text-align:center;
+  // background-image: url(../images/girl-1828536_1280.jpg);
+  background-color: #666666;
   // width: 1900px;
   height: 630vh;
-  width: 100%;
+  // width: 100%;
   background-repeat: no-repeat;
 }
 
@@ -22,18 +25,20 @@
   width: 349px;
   height: 9px;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: normal;
   text-transform: uppercase;
   font-style: normal;
+  margin-top: 5px;
   font-stretch: normal;
   line-height: 1.83;
   letter-spacing: 2.4px;
   text-align: left;
   color: #999999;
+  white-space: nowrap;
 }
 
-.fas.fa-angle-down {
+.fas .fa-angle-down {
   width: 7px;
   height: 5px;
   font-family: FontAwesome;
@@ -47,11 +52,21 @@
   color: #999999;
 }
 
+i {
+  margin-left: 8px;
+}
 
+#top span {
+  padding: 5px;
+  color: #999999;
+  font-size: 12px;
+}
+
+// right handed icons top
 .icons {
   // width: 80%;
   // margin: auto;
-  width: 111px;
+  width: 297px;
   height: 15px;
   font-family: FontAwesome;
   font-size: 15px;
@@ -63,10 +78,55 @@
   text-align: center;
   color: #999999;
   float: right
-
 }
 
-// .navbar {
-//   position: fixed;
-// }
+.navbar {
+ margin: 0;
+ padding: 0;
+}
 
+.navbar ul {
+  padding-top: 5rem;
+  
+}
+
+
+.navbar li {
+  list-style: none;
+  display: inline;
+  padding: 15px;
+  
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif;
+  
+  
+}
+
+.nateb {
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.8;
+  letter-spacing: 6px;
+  text-align: left;
+  color: #fffefe;
+
+  // a {
+    
+  // }
+}
+
+.search {
+  color: white;
+}
+
+.shop {
+  color: white;
+}
