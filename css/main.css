@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+#top {
+  width: 100%;
+  height: 53px;
+  background-color: #2d2827;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+
+.header-image {
+  background-image: url(../images/girl-1828536_1280.jpg);
+  height: 630vh;
+  width: 100%;
+  background-repeat: no-repeat; }
+
+.ship {
+  width: 349px;
+  height: 9px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.83;
+  letter-spacing: 2.4px;
+  text-align: left;
+  color: #999999; }
+
+.fas.fa-angle-down {
+  width: 7px;
+  height: 5px;
+  font-family: FontAwesome;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #999999; }
+
+.icons {
+  width: 111px;
+  height: 15px;
+  font-family: FontAwesome;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #999999;
+  float: right; }
+
+/*# sourceMappingURL=main.css.map */
