@@ -91,6 +91,12 @@ i {
   font-family: 'Dosis', sans-serif;
 }
 
+nav a:hover {
+  color: yellow;
+  transition: all 0.5s ease-in-out;
+}
+
+
 .nateb {
   font-family: 'Dosis', sans-serif;
   font-size: 30px;
@@ -305,17 +311,130 @@ img {
   border: none;
 } 
 
+// _____________________________________
+
 .parallax {
   width: 100%;
-  height: 352px;
+  height: 380px;
   opacity: 0.9;
-  background-color: #666666;
+  background-image: url(../images/backpack-blur-city-1205379.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 60rem;
+  background-attachment: fixed;
+  object-fit: contain;
+
+  p{
+    width: 656px;
+    margin-top: -5rem;
+    height: 38px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+}
+.jackie {
+   width: 530px;
+  height: 37px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 48px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
 }
 
-.blog {
-  width: 1900px;
-  height: 671px;
+
+// blog part sizing
+.myblog {
+  width: 100%;
+  height: 500px;
   background-color: #f9f9f9;
+ 
+
+  h1 {
+    color: black;
+    text-align: center;
+  }
 }
 
+// blog
+.blog-name {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #333333;
+}
+
+.blog-img {
+  width: 585px;
+  height: 405px;
+  background-color: #666666;
+  
+}
+
+.blogtext {
+  width: 529px;
+  height: 239px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #666666;
+
+  h4 {
+    width: 339px;
+    height: 23px;
+    font-family: SourceSansPro;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.92;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+  }
+}
+
+.info {
+  width: 100%;
+  height: 380px;
+  background-color: #2d2827;
+}
+
+
+
+
+
+
+// .view-button {
+//   width: 150px;
+//   height: 40px;
+//   background-color: #a88d7b;
+// }
+
+
+
+
+// _________________________________________________
 

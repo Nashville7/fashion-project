@@ -11,6 +11,21 @@ button {
   outline: none;
   border: none; }
 
+.view-button {
+  width: 128px;
+  height: 32px;
+  background-color: #a88d7b;
+  border-radius: 0;
+  font-family: SourceSansPro;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  top: 136rem;
+  left: 28rem;
+  transform: translateX(-50%, -50%); }
+
 .down-arrow {
   position: absolute;
   left: 50%;
@@ -54,6 +69,39 @@ h1 {
   color: #ffffff;
   text-align: center;
   margin-top: 7rem; }
+
+h4 {
+  width: 530px;
+  height: 37px;
+  font-family: Dosis;
+  font-size: 48px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff; }
+
+footer {
+  width: 100%;
+  height: 90px;
+  background-color: #d7d7d7;
+  margin-top: -13px;
+  position: fixed;
+  bottom: 0; }
+  footer p {
+    height: 14px;
+    padding-top: 2.5rem;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666666; }
 
 #top {
   width: 100%;
@@ -135,6 +183,10 @@ i {
   color: white;
   text-transform: uppercase;
   font-family: 'Dosis', sans-serif; }
+
+nav a:hover {
+  color: yellow;
+  transition: all 0.5s ease-in-out; }
 
 .nateb {
   font-family: 'Dosis', sans-serif;
@@ -326,14 +378,94 @@ img {
 
 .parallax {
   width: 100%;
-  height: 352px;
+  height: 380px;
   opacity: 0.9;
+  background-image: url(../images/backpack-blur-city-1205379.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 60rem;
+  background-attachment: fixed;
+  object-fit: contain; }
+  .parallax p {
+    width: 656px;
+    margin-top: -5rem;
+    height: 38px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff; }
+
+.jackie {
+  width: 530px;
+  height: 37px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 48px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff; }
+
+.myblog {
+  width: 100%;
+  height: 500px;
+  background-color: #f9f9f9; }
+  .myblog h1 {
+    color: black;
+    text-align: center; }
+
+.blog-name {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #333333; }
+
+.blog-img {
+  width: 585px;
+  height: 405px;
   background-color: #666666; }
 
-.blog {
-  width: 1900px;
-  height: 671px;
-  background-color: #f9f9f9; }
+.blogtext {
+  width: 529px;
+  height: 239px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #666666; }
+  .blogtext h4 {
+    width: 339px;
+    height: 23px;
+    font-family: SourceSansPro;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.92;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333; }
+
+.info {
+  width: 100%;
+  height: 380px;
+  background-color: #2d2827; }
 
 .featured-product {
   display: grid;
@@ -348,5 +480,16 @@ img {
   margin: auto;
   width: 56rem;
   grid-gap: 1rem; }
+
+.parallax {
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  width: 100%;
+  padding: 5rem 0 0 15rem; }
+
+.myblog {
+  display: grid;
+  margin: 3rem;
+  grid-template-columns: repeat(2, 1fr); }
 
 /*# sourceMappingURL=main.css.map */

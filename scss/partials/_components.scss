@@ -12,6 +12,22 @@ button {
     border: none;
 }
 
+.view-button {
+  width: 128px;
+  height: 32px;
+  background-color: #a88d7b;
+  border-radius: 0;
+  font-family: SourceSansPro;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  top: 136rem;
+  left: 28rem;
+  transform: translateX(-50%,-50%);
+}
+
 .down-arrow {
     position: absolute;
     left: 50%;
