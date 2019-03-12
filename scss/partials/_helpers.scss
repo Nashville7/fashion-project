@@ -404,7 +404,7 @@ img {
   h4 {
     width: 339px;
     height: 23px;
-    font-family: SourceSansPro;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 25px;
     font-weight: 600;
     font-style: normal;
@@ -422,7 +422,57 @@ img {
   background-color: #2d2827;
 }
 
+.location {
+  width: 46px;
+  height: 21px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #e5e5e5;
+}
+ 
 
+.offer,
+.unisex {
+  width: 46px;
+  height: 12px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #e5e5e5;
+}
+
+.insta-heading {
+  width: 91px;
+  height: 13px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+// sizing the instagram images
+.insta-grid img {
+ 
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+
+}
 
 
 
