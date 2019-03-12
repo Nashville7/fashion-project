@@ -197,7 +197,7 @@ i {
 
 .featured-product {
   width: 80%;
-  height: 704px;
+  height: 70vh;
   background-color: var(--white); }
   .featured-product h2 {
     text-transform: uppercase;
@@ -223,26 +223,81 @@ i {
   letter-spacing: normal;
   color: #333333; }
 
+.main-title3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #333333; }
+
 .content,
 .content2,
 .content3 {
   text-align: center; }
+  .content h3,
+  .content2 h3,
+  .content3 h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333; }
+  .content p,
+  .content2 p,
+  .content3 p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999; }
 
-.product1 img {
+.product1,
+.product2,
+.product3 {
   width: 18rem;
-  height: 18rem; }
+  height: 18rem;
+  background: grey;
+  position: relative; }
 
-.product2 img {
-  width: 18rem;
-  height: 18rem; }
+img {
+  width: 100%;
+  height: 100%; }
 
-.product3 img {
-  width: 18rem;
-  height: 18rem; }
+.content4,
+.content5 {
+  text-align: center; }
+  .content4 h3,
+  .content5 h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333; }
+
+.product4,
+.product5 {
+  width: 100%;
+  height: 21rem; }
 
 .new-collection {
   width: 100%;
-  height: 704px;
+  height: 80vh;
   background-color: var(--white); }
   .new-collection h2 {
     text-transform: uppercase;
@@ -258,17 +313,27 @@ i {
 
 .new {
   font-family: 'Source Sans Pro', sans-serif;
-  margin-top: 70px;
   width: 50px;
   height: 20px;
   border-radius: 20px;
   background-color: #a88d7b;
   text-transform: uppercase;
   color: white;
-  transform: translate(456%, -1746%);
+  transform: translate(230%, -1777%);
   font-size: 12px;
   outline: none;
   border: none; }
+
+.parallax {
+  width: 100%;
+  height: 352px;
+  opacity: 0.9;
+  background-color: #666666; }
+
+.blog {
+  width: 1900px;
+  height: 671px;
+  background-color: #f9f9f9; }
 
 .featured-product {
   display: grid;
@@ -280,8 +345,8 @@ i {
 .new-collection {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  text-align: center;
-  height: 100%;
-  grid-gap: 30px; }
+  margin: auto;
+  width: 56rem;
+  grid-gap: 1rem; }
 
 /*# sourceMappingURL=main.css.map */
