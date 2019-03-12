@@ -1,5 +1,4 @@
 #top {
-  // width: 1900px;
   width: 100%;
   height: 53px;
   color: white;
@@ -9,18 +8,6 @@
   text-align: center;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-}
-
-
-
-header {
-  text-align:center;
-  background-image:linear-gradient(#66666688,#66666688), url(../images/streetwear-3749344_1920.jpg);
-  // width: 1900px;
-  height: 100vh;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: 100% 42rem;
 }
 
 .ship {
@@ -66,8 +53,6 @@ i {
 
 // right handed icons top
 .icons {
-  // width: 80%;
-  // margin: auto;
   width: 297px;
   height: 15px;
   font-family: FontAwesome;
@@ -97,7 +82,6 @@ i {
   list-style: none;
   display: inline;
   padding: 15px;
-  
 }
 
 .navbar a {
@@ -105,8 +89,6 @@ i {
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   font-family: 'Dosis', sans-serif;
-  
-  
 }
 
 .nateb {
@@ -119,10 +101,6 @@ i {
   letter-spacing: 6px;
   text-align: left;
   color: #fffefe;
-
-  // a {
-    
-  // }
 }
 
 .search {
@@ -139,7 +117,6 @@ i {
   color: #ffffff;
 }
 
-
 .shop {
   color: white;
   width: 21px;
@@ -153,21 +130,6 @@ i {
   letter-spacing: 1.1px;
   text-align: left;
   color: #ffffff;
-}
-
-h1 {
-  height: 38px;
-  font-family: 'Dosis', sans-serif;
-  font-size: 50px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.96;
-  letter-spacing: normal;
-  text-align: center;
-  color: #ffffff;
-  text-align: center;
-  margin-top: 7rem;
 }
 
 .headermessage p {
@@ -194,46 +156,63 @@ h1 {
   padding-right: 176px !important;
 }
 
-button {
-  font-family: 'Source Sans Pro', sans-serif;
-  margin-top: 70px;
-  width: 150px;
-  height: 40px;
-  border-radius: 20px;
-  background-color: #a88d7b;
-  text-transform: uppercase;
-  color: white;
-  font-size: 15px;
-  outline: none;
-  border: none;
-
-  // font-weight: normal;
-  // font-style: normal;
-  // font-stretch: normal;
-  // line-height: 3.2;
-  // letter-spacing: 1.5px;
-  // text-align: center;
-  // color: #ffffff;
-}
-
-.down-arrow {
-  position: absolute;
-  left: 50%;
-  top: 83%;
-  transform: translateX(-50%);
-  padding-top: 2em;
-  color: white;
-  font-size: 25px;
-  animation: down-arrow 1s ease infinite;
-}
-
-@keyframes down-arrow {
-  0% {padding-top:1em;}
-  50% {padding-top:1.6em;}
-  100%{padding-top: 1em;}
-}
-
+// featured product
 .featured-product {
+  width: 80%;
+  height: 704px;
+  background-color: var(--white);
+
+  h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #333333;
+  }
+}
+
+.main-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #333333;
+}
+
+.content,
+.content2,
+.content3 {
+  text-align: center;
+}
+
+.product1 img {
+    width: 18rem;
+    height: 18rem;
+}
+
+.product2 img {
+  width: 18rem;
+    height: 18rem;
+}
+.product3 img{
+  width: 18rem;
+  height: 18rem;
+}
+
+
+
+// New collection
+.new-collection {
   width: 100%;
   height: 704px;
   background-color: var(--white);
@@ -252,19 +231,28 @@ button {
   }
 }
 
-.boxes {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
+// .product4 {
+//   width: 18rem;
+//   height: 18rem;
+// }
+// .product5{
+//   width: 18rem;
+//   height: 18rem;
+// }
 
-}
-
-.box1,
-.box2,
-.box3 {
-  width: 280px;
-  height: 280px;
-  margin: auto;
-  background-color: #666666;
-}
-
+//button2 for product 2 
+.new {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 70px;
+  width: 50px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #a88d7b;
+  text-transform: uppercase;
+  color: white;
+  transform: translate(456%, -1746%);
+  font-size: 12px;
+  outline: none;
+  border: none;
+} 
 

@@ -3,3 +3,29 @@
 //     grid-template-columns: repeat(3, 1fr);
 // }
 
+.featured-product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    width: 56rem;
+    grid-gap: 1rem;
+}
+
+
+// New collection grids
+
+.new-collection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    height: 100%;
+    grid-gap: 30px;
+}
+
+
+
+
+
+
+    
+
