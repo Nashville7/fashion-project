@@ -20,11 +20,9 @@ button {
   font-size: 15px;
   text-align: center;
   color: #ffffff;
-  position: absolute;
-  bottom: 0;
-  top: 136rem;
-  left: 28rem;
-  transform: translateX(-50%, -50%); }
+  position: relative;
+  bottom: 4rem;
+  left: 25rem; }
 
 .down-arrow {
   position: absolute;
@@ -50,8 +48,8 @@ body {
 
 header {
   text-align: center;
-  background-image: linear-gradient(#66666688, #66666688), url(../images/streetwear-3749344_1920.jpg);
-  height: 100vh;
+  background-image: linear-gradient(#66666688, #66666688), url(../images/streetwear-3749344_1920-min.jpg);
+  height: 945px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: 100% 42rem; }
@@ -85,7 +83,6 @@ h4 {
 
 footer {
   width: 100%;
-  height: 90px;
   background-color: #d7d7d7;
   margin-top: -13px;
   position: fixed;
@@ -249,7 +246,8 @@ nav a:hover {
 
 .featured-product {
   width: 80%;
-  height: 70vh;
+  height: 704px;
+  text-align: center;
   background-color: var(--white); }
   .featured-product h2 {
     text-transform: uppercase;
@@ -273,8 +271,26 @@ nav a:hover {
   font-stretch: normal;
   line-height: 1.33;
   letter-spacing: normal;
-  color: #333333; }
+  color: #333333;
+  position: relative; }
 
+.main-title::before {
+  content: "";
+  transform: translateX(-50%);
+  bottom: 0;
+  left: 50%;
+  height: 2px;
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: #a88d7b;
+  animation: move 1s ease-in-out; }
+
+@keyframes move {
+  from {
+    width: 0; }
+  to {
+    width: 50px; } }
 .main-title3 {
   text-transform: uppercase;
   text-align: center;
@@ -318,10 +334,11 @@ nav a:hover {
 .product1,
 .product2,
 .product3 {
-  width: 18rem;
-  height: 18rem;
+  width: 370px;
+  height: 360px;
   background: grey;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
 
 img {
   width: 100%;
@@ -345,11 +362,17 @@ img {
 .product4,
 .product5 {
   width: 100%;
-  height: 21rem; }
+  height: 373px;
+  position: relative;
+  overflow: hidden; }
+  .product4 img,
+  .product5 img {
+    width: 100%;
+    height: 100%; }
 
 .new-collection {
-  width: 100%;
-  height: 80vh;
+  width: 80%;
+  height: 705px;
   background-color: var(--white); }
   .new-collection h2 {
     text-transform: uppercase;
@@ -371,23 +394,23 @@ img {
   background-color: #a88d7b;
   text-transform: uppercase;
   color: white;
-  transform: translate(230%, -1777%);
+  transform: translate(284%, -2108%);
   font-size: 12px;
   outline: none;
   border: none; }
 
 .parallax {
   width: 100%;
-  height: 380px;
+  height: 552px;
   opacity: 0.9;
-  background-image: url(../images/backpack-blur-city-1205379.jpg);
+  background-image: linear-gradient(#666666a5, #666666b1), url(../images/backpack-blur-city-1205379-min.jpg);
   background-repeat: no-repeat;
   background-size: 100% 60rem;
   background-attachment: fixed;
   object-fit: contain; }
   .parallax p {
     width: 656px;
-    margin-top: -5rem;
+    margin-top: 2rem;
     height: 38px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
@@ -397,6 +420,7 @@ img {
     line-height: 1.6;
     letter-spacing: normal;
     text-align: center;
+    margin-left: 131px;
     color: #ffffff; }
 
 .jackie {
@@ -409,12 +433,15 @@ img {
   font-stretch: normal;
   line-height: 0.5;
   letter-spacing: normal;
+  bottom: -6rem;
+  position: relative;
   text-align: center;
-  color: #ffffff; }
+  color: #ffffff;
+  margin-left: 176px; }
 
 .myblog {
   width: 100%;
-  height: 500px;
+  height: 671px;
   background-color: #f9f9f9; }
   .myblog h1 {
     color: black;
@@ -462,16 +489,41 @@ img {
     text-align: left;
     color: #333333; }
 
+.read-more {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3.2;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #a88d7b;
+  list-style-type: none;
+  display: inline; }
+  .read-more .fa .fa-arrow-right {
+    width: 15px;
+    height: 11px;
+    font-family: Linearicons-Free;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a88d7b; }
+
 .info {
   width: 100%;
-  height: 380px;
+  height: 425px;
   background-color: #2d2827; }
 
 .location {
-  width: 46px;
+  width: 60px;
   height: 21px;
   font-family: 'Dosis', sans-serif;
-  font-size: 30px;
+  font-size: 18px;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -491,8 +543,20 @@ img {
   font-stretch: normal;
   line-height: 1.33;
   letter-spacing: normal;
-  text-align: center;
   color: #e5e5e5; }
+  .offer p,
+  .unisex p {
+    width: 56px;
+    height: 11px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #999999; }
 
 .insta-heading {
   width: 91px;
@@ -504,7 +568,6 @@ img {
   font-stretch: normal;
   line-height: 1.33;
   letter-spacing: normal;
-  text-align: center;
   color: #ffffff; }
 
 .insta-grid img {
@@ -512,25 +575,58 @@ img {
   height: 80px;
   object-fit: cover; }
 
+#top-about {
+  width: 100%;
+  height: 53px;
+  color: white;
+  background-color: #eeeeee;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+
+.nav-container {
+  width: 100%;
+  height: 93px;
+  background-color: #ffffff; }
+
+.nateb-about {
+  width: 116px;
+  height: 22px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #000000; }
+
+.blog-img-about {
+  width: 600px;
+  height: 490px;
+  background-color: #666666; }
+
 .featured-product {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: auto;
-  width: 56rem;
+  width: 1142px;
   grid-gap: 1rem; }
 
 .new-collection {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin: auto;
-  width: 56rem;
+  width: 1142px;
   grid-gap: 1rem; }
 
 .parallax {
   display: grid;
   grid-template-columns: repeat(1fr);
-  width: 100%;
-  padding: 5rem 0 0 15rem; }
+  width: 100%; }
 
 .myblog {
   display: grid;
@@ -539,12 +635,17 @@ img {
 
 .info {
   display: grid;
-  grid-template-columns: repeat(4, auto); }
+  grid-template-columns: repeat(4, auto);
+  padding: 14px; }
 
 .insta-grid {
   display: grid;
   grid-template-columns: repeat(4, 6rem);
   grid-row-gap: 1rem;
   text-align: center; }
+
+.navbar-about {
+  display: grid;
+  grid-template-columns: repeat(3, auto); }
 
 /*# sourceMappingURL=main.css.map */

@@ -7,7 +7,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: auto;
-    width: 56rem;
+    width: 1142px;
+    // width: 56rem;
     grid-gap: 1rem;
 }
 
@@ -17,7 +18,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: auto;
-    width: 56rem;
+    width: 1142px;
+    // width: 56rem;
     grid-gap: 1rem;
 }
 
@@ -25,7 +27,6 @@
     display: grid;
     grid-template-columns: repeat(1fr);
     width: 100%;
-    padding: 5rem 0 0 15rem;
 }
 
 .myblog {
@@ -37,6 +38,7 @@
 .info {
     display: grid;
     grid-template-columns: repeat(4, auto);
+    padding: 14px;
     // text-align: center;
 }
 
@@ -48,6 +50,10 @@
     
 }
 
+.navbar-about {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
 
 
 

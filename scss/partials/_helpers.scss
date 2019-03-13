@@ -165,7 +165,8 @@ nav a:hover {
 // featured product
 .featured-product {
   width: 80%;
-  height: 70vh;
+  height: 704px;
+  text-align: center;
   background-color: var(--white);
 
   h2 {
@@ -193,6 +194,30 @@ nav a:hover {
     line-height: 1.33;
     letter-spacing: normal;
     color: #333333;
+    position: relative;
+}
+
+.main-title::before {
+  content: "";
+  transform: translateX(-50%);
+  bottom: 0;
+  left: 50%;
+  height: 2px;
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: #a88d7b;
+  animation: move 1s ease-in-out;
+} 
+
+
+@keyframes move {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50px;
+  }
 }
 
 .main-title3 {
@@ -240,20 +265,27 @@ nav a:hover {
 .product1,
 .product2,
 .product3 {
-    width: 18rem;
-    height: 18rem;
+    // width: 18rem;
+    // height: 18rem;
+    width: 370px;
+    height: 360px;
     background: grey;
     position: relative;
+    overflow: hidden;
+  
 }
 
 img {
     width:100%; 
     height: 100%;
+    // transform: scale(1.2);
+   
 }
 
 .content4,
 .content5 {
   text-align: center;
+  
 
   h3 {
     font-family: 'Source Sans Pro', sans-serif;
@@ -270,16 +302,27 @@ img {
 
 .product4,
 .product5 {
+  // width: 100%;
+  // height: 21rem;
   width: 100%;
-  height: 21rem;
+  height: 373px;
+  position: relative;
+  overflow: hidden;
+
+  img{
+    width:100%; 
+    height: 100%;
+  }
+ 
 }
 
 
 
 // New collection
 .new-collection {
-  width: 100%;
-  height: 80vh;
+  width: 80%;
+  // height: 80vh;
+  height: 705px;
   background-color: var(--white);
 
   h2 {
@@ -305,7 +348,7 @@ img {
   background-color: #a88d7b;
   text-transform: uppercase;
   color: white;
-  transform: translate(230%, -1777%);
+  transform: translate(284%, -2108%);
   font-size: 12px;
   outline: none;
   border: none;
@@ -315,9 +358,10 @@ img {
 
 .parallax {
   width: 100%;
-  height: 380px;
+  height: 552px;
   opacity: 0.9;
-  background-image: url(../images/backpack-blur-city-1205379.jpg);
+  // height: 380px;
+  background-image: linear-gradient(#666666a5, #666666b1), url(../images/backpack-blur-city-1205379-min.jpg);
   background-repeat: no-repeat;
   background-size: 100% 60rem;
   background-attachment: fixed;
@@ -325,7 +369,7 @@ img {
 
   p{
     width: 656px;
-    margin-top: -5rem;
+    margin-top: 2rem;
     height: 38px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
@@ -335,6 +379,7 @@ img {
     line-height: 1.6;
     letter-spacing: normal;
     text-align: center;
+    margin-left: 131px;
     color: #ffffff;
   }
   
@@ -349,15 +394,19 @@ img {
   font-stretch: normal;
   line-height: 0.5;
   letter-spacing: normal;
+  bottom: -6rem;
+  position: relative;
   text-align: center;
   color: #ffffff;
+  margin-left: 176px;
 }
 
 
 // blog part sizing
 .myblog {
   width: 100%;
-  height: 500px;
+  // height: 500px;
+  height: 671px;
   background-color: #f9f9f9;
  
 
@@ -416,17 +465,51 @@ img {
   }
 }
 
+
+.read-more {
+  // width: 85px;
+  // height: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3.2;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #a88d7b;
+  list-style-type: none;
+  display: inline;
+  
+
+  .fa .fa-arrow-right {
+    width: 15px;
+    height: 11px;
+    font-family: Linearicons-Free;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a88d7b;
+  
+}
+}
+
 .info {
   width: 100%;
-  height: 380px;
+  // height: 380px;
+  height: 425px;
   background-color: #2d2827;
 }
 
 .location {
-  width: 46px;
+  width: 60px;
   height: 21px;
   font-family: 'Dosis', sans-serif;
-  font-size: 30px;
+  font-size: 18px;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -448,8 +531,21 @@ img {
   font-stretch: normal;
   line-height: 1.33;
   letter-spacing: normal;
-  text-align: center;
   color: #e5e5e5;
+
+  p {
+    width: 56px;
+    height: 11px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #999999;
+  }
 }
 
 .insta-heading {
@@ -462,7 +558,6 @@ img {
   font-stretch: normal;
   line-height: 1.33;
   letter-spacing: normal;
-  text-align: center;
   color: #ffffff;
 }
 // sizing the instagram images
@@ -476,15 +571,54 @@ img {
 
 
 
-
-// .view-button {
-//   width: 150px;
-//   height: 40px;
-//   background-color: #a88d7b;
-// }
-
-
-
-
 // _________________________________________________
 
+// about page
+
+
+// .who-we-are {
+//   width: 100%;
+//   height: 548px;
+//   background-color: #ffffff;
+// }
+
+#top-about {
+
+    width: 100%;
+    height: 53px;
+    color: white;
+    background-color: #eeeeee;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+
+}
+
+.nav-container {
+  width: 100%;
+  height: 93px;
+  background-color: #ffffff;
+
+}
+
+.nateb-about {
+  width: 116px;
+  height: 22px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #000000;
+}
+
+.blog-img-about {
+  width: 600px;
+  height: 490px;
+  background-color: #666666;
+}

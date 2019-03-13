@@ -6,9 +6,11 @@ body {
 
 header {
     text-align:center;
-    background-image:linear-gradient(#66666688,#66666688), url(../images/streetwear-3749344_1920.jpg);
+    // background-image:linear-gradient(#66666688,#66666688), url(../images/streetwear-3749344_1920.jpg);
+    background-image:linear-gradient(#66666688,#66666688), url(../images/streetwear-3749344_1920-min.jpg);
     // width: 1900px;
-    height: 100vh;
+    // height: 100vh;
+    height: 945px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: 100% 42rem;
@@ -45,7 +47,7 @@ h4 {
 
 footer {
     width: 100%;
-    height: 90px;
+    // height: 90px;
     background-color: #d7d7d7;
     margin-top: -13px;
     position: fixed;
