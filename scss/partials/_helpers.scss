@@ -165,6 +165,7 @@ nav a:hover {
 // featured product
 .featured-product {
   width: 100%;
+  height: 704px;
   // height: 704px;
   text-align: center;
   background-color: $bgcolor;
@@ -184,6 +185,7 @@ nav a:hover {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 36px;
     color: $main-title;
+    padding: 60px auto 92px;
     position: relative;
 }
 
@@ -398,6 +400,20 @@ nav a:hover {
   width: 100%;
   // height: 380px;
   height: 425px;
+
+  p {
+    width: 232px;
+    height: 18px;
+    font-family: SourceSansPro;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--warm-grey);
+  }
  
 }
 
