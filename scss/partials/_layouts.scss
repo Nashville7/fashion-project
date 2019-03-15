@@ -6,10 +6,8 @@
 .featured-product {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: auto;
-    padding-top: 92px;
+    margin: auto;   
     width: 71.375rem;
-    height: 464px;
     grid-gap: 1rem;
 }
 
@@ -19,9 +17,10 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: auto;
+    padding-top: 92px;
     width: 71.375rem;
     grid-gap: 1rem;
-    height: 464px;
+    height: 528px;
 }
 
 .parallax {

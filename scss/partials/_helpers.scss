@@ -163,21 +163,13 @@ nav a:hover {
 }
 
 // featured product
-.featured-product {
-  width: 100%;
-  height: 704px;
-  // height: 704px;
-  text-align: center;
-  background-color: $bgcolor;
-
-  h2 {
-    text-transform: uppercase;
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 36px;
-    color: #333333;
+  #featured-product-container {
+    height: 704px;
+    background-color:$bgcolor;
+    width: 100%;
   }
-}
+  
+
 
 .main-title {
     text-transform: uppercase;
@@ -185,7 +177,7 @@ nav a:hover {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 36px;
     color: $main-title;
-    padding: 60px auto 92px;
+    margin: 60px auto 92px;
     position: relative;
 }
 
@@ -255,18 +247,10 @@ nav a:hover {
 }
 
 // New collection
-.new-collection {
-  width: 100%;
-  // height: 705px;
+#new-collection-container {
+  height: 704px;
   background-color:$bgcolor;
-
-  h2 {
-    text-transform: uppercase;
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 36px;
-    color: #333333;
-  }
+  width: 100%;
 }
 
 .new-collection-img {
@@ -331,7 +315,6 @@ nav a:hover {
 // blog part sizing
 .myblog {
   width: 100%;
-  // height: 500px;
   text-align: center;
   height: 671px;
   background-color: #f9f9f9;
@@ -355,7 +338,6 @@ nav a:hover {
 .blog-img {
   width: 585px;
   height: 405px;
-  // margin-left: 9.5rem;
   background-color: #666666;
   
 }
@@ -379,8 +361,6 @@ nav a:hover {
 
 
 .read-more {
-  // width: 85px;
-  // height: 10px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 15px;
   text-align: left;
@@ -501,4 +481,10 @@ nav a:hover {
   width: 600px;
   height: 490px;
 }
+}
+
+#new-collection-container {
+  height: 704px;
+  background-color:$bgcolor;
+  width: 100%;
 }
