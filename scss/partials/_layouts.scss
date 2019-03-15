@@ -7,8 +7,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: auto;
-    width: 1142px;
-    // width: 56rem;
+    width: 71.375rem;
     grid-gap: 1rem;
 }
 
@@ -18,8 +17,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: auto;
-    width: 1142px;
-    // width: 56rem;
+    width: 71.375rem;
     grid-gap: 1rem;
 }
 
@@ -39,6 +37,8 @@
     display: grid;
     grid-template-columns: repeat(4, auto);
     padding: 14px;
+    background-color: #2d2827;
+    color: white;
     // text-align: center;
 }
 
@@ -48,6 +48,11 @@
     grid-row-gap: 1rem;
     text-align: center;
     
+    img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+    }
 }
 
 .navbar-about {

@@ -138,7 +138,7 @@ nav a:hover {
   color: #ffffff;
 }
 
-.headermessage p {
+.fashion-heading p {
   width: 924px;
   height: 39px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -149,9 +149,9 @@ nav a:hover {
   line-height: 1.67;
   letter-spacing: normal;
   text-align: center;
-  color: #e6e6e6;
+  color: $main-paragraph;
   max-width: 800vw;
-  margin-left: 10rem;
+  margin: auto;
 }
 
 .home {
@@ -164,21 +164,16 @@ nav a:hover {
 
 // featured product
 .featured-product {
-  width: 80%;
-  height: 704px;
+  width: 100%;
+  // height: 704px;
   text-align: center;
-  background-color: var(--white);
+  background-color: $bgcolor;
 
   h2 {
     text-transform: uppercase;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 36px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
     color: #333333;
   }
 }
@@ -188,12 +183,7 @@ nav a:hover {
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 36px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    color: #333333;
+    color: $main-title;
     position: relative;
 }
 
@@ -220,139 +210,68 @@ nav a:hover {
   }
 }
 
-.main-title3 {
+.main-title2 {
   text-transform: uppercase;
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 36px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
-  color: #333333;
+  font-size: 36px;;
+  color: $main-title;
+  position: relative;
 }
 
-.content,
-.content2,
-.content3 {
-  text-align: center;
-  h3 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 2.4;
-    letter-spacing: normal;
-    text-align: center;
-    color: #333333;
-
-    }
-    p {
-      font-family: 'Source Sans Pro', sans-serif;
-      font-size: 15px;
-      font-weight: 600;
-      font-style: normal;
-      font-stretch: normal;
-      letter-spacing: normal;
-      text-align: center;
-      color: #999999;
-  }
-  
-}
-
-.product1,
-.product2,
-.product3 {
-    // width: 18rem;
-    // height: 18rem;
-    width: 370px;
-    height: 360px;
-    background: grey;
-    position: relative;
-    overflow: hidden;
-  
-}
-
-img {
-    width:100%; 
-    height: 100%;
-    // transform: scale(1.2);
-   
+.main-title2::before{
+  content: "";
+  transform: translateX(-50%);
+  bottom: 0;
+  left: 50%;
+  height: 2px;
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: #a88d7b;
+  animation: move 1s ease-in-out;
 }
 
 .content4,
 .content5 {
+  margin: 0px auto;
   text-align: center;
-  
+
 
   h3 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 2.4;
-    letter-spacing: normal;
     text-align: center;
     color: #333333;
   }
 }
 
-.product4,
-.product5 {
-  // width: 100%;
-  // height: 21rem;
-  width: 100%;
-  height: 373px;
-  position: relative;
-  overflow: hidden;
-
-  img{
-    width:100%; 
-    height: 100%;
-  }
- 
+.featured-product-img {
+  width: 370px;
+  height: 360px;
 }
-
-
 
 // New collection
 .new-collection {
-  width: 80%;
-  // height: 80vh;
-  height: 705px;
-  background-color: var(--white);
+  width: 100%;
+  // height: 705px;
+  background-color:$bgcolor;
 
   h2 {
     text-transform: uppercase;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 36px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
     color: #333333;
   }
 }
 
-//button2 for product 2 
-.new {
-  font-family: 'Source Sans Pro', sans-serif;
-  width: 50px;
-  height: 20px;
-  border-radius: 20px;
-  background-color: #a88d7b;
-  text-transform: uppercase;
-  color: white;
-  transform: translate(284%, -2108%);
-  font-size: 12px;
-  outline: none;
-  border: none;
-} 
+.new-collection-img {
+  width: 570px;
+  height: 373px;
+}
+
 
 // _____________________________________
 
@@ -367,38 +286,43 @@ img {
   background-attachment: fixed;
   object-fit: contain;
 
-  p{
+  p {
     width: 656px;
-    margin-top: 2rem;
+    // margin-top: 1rem;
+    padding-top: 10rem;
     height: 38px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.6;
-    letter-spacing: normal;
     text-align: center;
-    margin-left: 131px;
+    margin-left: 240px;
+ 
     color: #ffffff;
   }
   
 }
 .jackie {
-   width: 530px;
+  width: 530px;
   height: 37px;
   font-family: 'Dosis', sans-serif;
   font-size: 48px;
+  // bottom: -3rem;
+  // bottom: -5rem;
+  // bottom: -8rem;
+  bottom: -13rem;
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  // margin-left: 176px;
+  margin-left: 300px;
+
+
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: 0.5;
   letter-spacing: normal;
-  bottom: -6rem;
-  position: relative;
-  text-align: center;
-  color: #ffffff;
-  margin-left: 176px;
+  
+
 }
 
 
@@ -406,6 +330,7 @@ img {
 .myblog {
   width: 100%;
   // height: 500px;
+  text-align: center;
   height: 671px;
   background-color: #f9f9f9;
  
@@ -422,17 +347,13 @@ img {
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 36px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
   color: #333333;
 }
 
 .blog-img {
   width: 585px;
   height: 405px;
+  // margin-left: 9.5rem;
   background-color: #666666;
   
 }
@@ -442,24 +363,13 @@ img {
   height: 239px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.67;
-  letter-spacing: normal;
   text-align: left;
   color: #666666;
 
   h4 {
-    width: 339px;
-    height: 23px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 25px;
     font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.92;
-    letter-spacing: normal;
     text-align: left;
     color: #333333;
   }
@@ -471,11 +381,6 @@ img {
   // height: 10px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 3.2;
-  letter-spacing: 1.5px;
   text-align: left;
   color: #a88d7b;
   list-style-type: none;
@@ -483,26 +388,17 @@ img {
   
 
   .fa .fa-arrow-right {
-    width: 15px;
-    height: 11px;
     font-family: Linearicons-Free;
     font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 3.2;
-    letter-spacing: normal;
     text-align: left;
     color: #a88d7b;
-  
-}
 }
 
 .info {
   width: 100%;
   // height: 380px;
   height: 425px;
-  background-color: #2d2827;
+ 
 }
 
 .location {
@@ -511,10 +407,6 @@ img {
   font-family: 'Dosis', sans-serif;
   font-size: 18px;
   font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 1.5px;
   text-align: center;
   color: #e5e5e5;
 }
@@ -527,49 +419,27 @@ img {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
   color: #e5e5e5;
 
   p {
-    width: 56px;
-    height: 11px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.6;
-    letter-spacing: normal;
-    text-align: left;
-    color: #999999;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  text-align: left;
+  color: #999999;
   }
 }
 
+// .instagram-container {
+//   width: 91px;
+//   height: 13px;
+// }
+
 .insta-heading {
-  width: 91px;
-  height: 13px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
   color: #ffffff;
 }
-// sizing the instagram images
-.insta-grid img {
- 
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-
-}
-
-
 
 // _________________________________________________
 
@@ -583,7 +453,6 @@ img {
 // }
 
 #top-about {
-
     width: 100%;
     height: 53px;
     color: white;
@@ -600,7 +469,6 @@ img {
   width: 100%;
   height: 93px;
   background-color: #ffffff;
-
 }
 
 .nateb-about {
@@ -609,10 +477,6 @@ img {
   font-family: 'Dosis', sans-serif;
   font-size: 30px;
   font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 1.5px;
   text-align: left;
   color: #000000;
 }
@@ -620,5 +484,5 @@ img {
 .blog-img-about {
   width: 600px;
   height: 490px;
-  background-color: #666666;
+}
 }
