@@ -747,6 +747,103 @@ nav a:hover {
   width: 600px;
   height: 490px; }
 
+.contact-container {
+  height: 1841px; }
+
+.the-adress {
+  width: 390px;
+  height: 200px;
+  border: solid 1px #e6e6e6;
+  background-color: #f0f0f0;
+  text-align: center; }
+  .the-adress .fa-map-marker-alt {
+    height: 37px;
+    font-size: 36px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.58;
+    letter-spacing: normal;
+    text-align: center;
+    color: #090803; }
+  .the-adress h3 {
+    height: 23px;
+    font-family: 'Source Sans Pro';
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: 1.3px;
+    text-align: center;
+    color: #333333; }
+  .the-adress p {
+    height: 16px;
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666666; }
+
+.the-contact {
+  width: 390px;
+  height: 200px;
+  border: solid 1px #e6e6e6;
+  background-color: #f0f0f0;
+  text-align: center; }
+  .the-contact p {
+    height: 16px;
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666666; }
+
+.the-opening-hours {
+  width: 390px;
+  height: 200px;
+  border: solid 1px #e6e6e6;
+  background-color: #f0f0f0;
+  text-align: center; }
+  .the-opening-hours h3 {
+    height: 23px;
+    font-family: 'Source Sans Pro';
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: 1.3px;
+    text-align: center;
+    color: #333333; }
+  .the-opening-hours p {
+    height: 16px;
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666666; }
+
+.shift {
+  margin-top: 40px; }
+
+.border {
+  width: 390px;
+  margin-top: 39px;
+  border: solid 1px #e6e6e6;
+  background-color: #f0f0f0; }
+
 body {
   margin: 0;
   padding: 0;
@@ -854,5 +951,12 @@ footer {
   margin: auto;
   grid-gap: 1rem;
   margin-bottom: 100px; }
+
+.contact-grid {
+  display: grid;
+  width: 71.375rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  margin-top: 60px; }
 
 /*# sourceMappingURL=main.css.map */

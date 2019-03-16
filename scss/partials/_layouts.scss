@@ -98,3 +98,13 @@
     grid-gap: 1rem;
     margin-bottom: 100px;
 }
+
+// _______Contact page____________
+
+.contact-grid {
+    display: grid;
+    width: 71.375rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    margin-top: 60px;
+}
