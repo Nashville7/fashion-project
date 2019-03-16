@@ -614,7 +614,8 @@ nav a:hover {
   line-height: 1.2;
   letter-spacing: 5px;
   text-align: center;
-  color: #ffffff; }
+  color: #ffffff;
+  margin-top: 109px; }
 .fashion-heading-about p {
   font-family: 'SourceSansPro';
   font-size: 15px;
@@ -625,7 +626,7 @@ nav a:hover {
   letter-spacing: normal;
   text-align: center;
   color: #cccccc;
-  margin-top: 181px; }
+  margin-top: 52px; }
 
 #who-we-are-container {
   height: 704px;
