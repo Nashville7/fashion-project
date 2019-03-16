@@ -655,6 +655,98 @@ nav a:hover {
     text-align: center;
     color: #333333; }
 
+.meet-the-team-container {
+  height: 721px;
+  background-color: #ffffff; }
+
+.meet-the-team-title {
+  height: 24px;
+  font-family: 'Source Sans Pro';
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  margin: 60px auto 92px; }
+
+.meet-the-team-img {
+  width: 270px;
+  height: 305px; }
+
+.Nashville h3,
+.Justin h3,
+.Ebraheem h3,
+.Marlon h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333; }
+.Nashville p,
+.Justin p,
+.Ebraheem p,
+.Marlon p {
+  height: 14px;
+  font-family: 'Source Sans Pro';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  text-align: center;
+  color: #999999; }
+.Nashville i,
+.Justin i,
+.Ebraheem i,
+.Marlon i {
+  height: 13px;
+  font-size: 15px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  text-align: center;
+  color: #555555; }
+
+#what-we-do-container {
+  height: 590px;
+  width: 100%;
+  background-color: #ffffff; }
+
+.what-we-do-text h4 {
+  height: 24px;
+  font-family: 'Source Sans Pro';
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333; }
+.what-we-do-text p {
+  font-family: 'Source Sans Pro';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #666666; }
+
+.what-we-do-img {
+  width: 600px;
+  height: 490px; }
+
 body {
   margin: 0;
   padding: 0;
@@ -667,6 +759,25 @@ header {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover; }
+
+footer {
+  width: 100%;
+  height: 90px;
+  background-color: #d7d7d7;
+  margin-top: -13px;
+  bottom: 0; }
+  footer p {
+    height: 14px;
+    padding-top: 2.5rem;
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666666; }
 
 #top {
   text-align: center;
@@ -728,5 +839,20 @@ header {
   width: 71.375rem;
   margin: auto;
   margin-top: 60px; }
+
+.meet-the-team {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: auto;
+  width: 71.375rem;
+  grid-gap: 1rem; }
+
+.what-we-do {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 71.375rem;
+  margin: auto;
+  grid-gap: 1rem;
+  margin-bottom: 100px; }
 
 /*# sourceMappingURL=main.css.map */

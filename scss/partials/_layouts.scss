@@ -80,3 +80,21 @@
     margin: auto;
     margin-top: 60px;
 }
+
+.meet-the-team {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;   
+    width: 71.375rem;
+    grid-gap: 1rem;
+    
+}
+
+.what-we-do {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 71.375rem;
+    margin: auto;
+    grid-gap: 1rem;
+    margin-bottom: 100px;
+}

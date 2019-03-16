@@ -739,6 +739,119 @@ h4 {
 }
 }
 
+// end of about page who we are
+
+// start meet the team
+
+.meet-the-team-container {
+  height: 721px;
+  background-color: #ffffff;
+}
+
+.meet-the-team-title {
+  height: 24px;
+  font-family: 'Source Sans Pro';
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  margin: 60px auto 92px;
+}
+
+.meet-the-team-img {
+  width: 270px;
+  height: 305px;
+}
+
+.Nashville,
+.Justin,
+.Ebraheem,
+.Marlon {
+
+  h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+  }
+
+    p {
+      height: 14px;
+      font-family: 'Source Sans Pro';
+      font-size: 15px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.47;
+      letter-spacing: normal;
+      text-align: center;
+      color: #999999;
+
+    }
+
+    i {
+      height: 13px;
+      font-size: 15px;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.47;
+      letter-spacing: normal;
+      text-align: center;
+      color: #555555;
+    }
+}
+
+// end of about page meet the team
+
+// start of the what we do on about 
+
+#what-we-do-container {
+  height: 590px;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.what-we-do-text {
+  h4 {
+    height: 24px;
+    font-family: 'Source Sans Pro';
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+  }
+  p {
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #666666;
+  }
+}
+
+.what-we-do-img {
+  width: 600px;
+  height: 490px;
+}
+
+
 
 
 
