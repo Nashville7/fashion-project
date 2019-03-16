@@ -1,3 +1,4 @@
+// Lookbook button
 button {
     font-family: 'Source Sans Pro', sans-serif;
     margin-top: 100px;
@@ -12,22 +13,7 @@ button {
     border: none;
 }
 
-.view-button {
-  width: 128px;
-  height: 32px;
-  background-color: #a88d7b;
-  border-radius: 0;
-  font-family: SourceSansPro;
-  font-size: 15px;
-  text-align: center;
-  color: #ffffff;
-  position: relative;
-  // bottom: 2rem;
-  // bottom: 8rem;
-  bottom: 4rem;
-  left: 31rem;
-}
-
+//down arrow properties with animation
 .down-arrow {
     position: absolute;
     left: 50%;
@@ -38,15 +24,14 @@ button {
     font-size: 25px;
     animation: down-arrow 1s ease infinite;
   }
-  
+
   @keyframes down-arrow {
     0% {padding-top:1em;}
     50% {padding-top:1.6em;}
     100%{padding-top: 1em;}
   }
 
-
-  //button2 for product 2 
+    //button2 for black cap advertisement
 .new {
   font-family: 'Source Sans Pro', sans-serif;
   width: 50px;
@@ -55,15 +40,49 @@ button {
   background-color: #a88d7b;
   text-transform: uppercase;
   color: white;
-  transform: translate(-50%, -50%);
+  transform: translate(-979%, 654%);
   font-size: 12px;
   outline: none;
   right: 5px;
   top: 20px;
   position: absolute;
+
   margin: 0;
   border: none;
 } 
+
+.view-button {
+  width: 128px;
+  height: 32px;
+  background-color: #a88d7b;
+  border-radius: 0;
+  font-family: SourceSansPro;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  bottom: 4rem;
+  left: 31rem;
+}
+
+
+
+.read-more {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  text-align: left;
+  color: #a88d7b;
+  list-style-type: none;
+  display: inline;
+  
+
+  .fa .fa-arrow-right {
+    font-size: 15px;
+    text-align: left;
+    color: #a88d7b;
+}
+}
+
 
 
   

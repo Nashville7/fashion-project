@@ -1,18 +1,21 @@
-// .navbar {
-//     display: grid;
-//     grid-template-columns: repeat(3, 1fr);
-// }
+// topnav grid
+#top {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 
+// featured product grid
 .featured-product {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: auto;   
     width: 71.375rem;
     grid-gap: 1rem;
+    
 }
 
-// New collection grids
-
+// New collection grid
 .new-collection {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -20,7 +23,6 @@
     padding-top: 92px;
     width: 71.375rem;
     grid-gap: 1rem;
-    height: 528px;
 }
 
 .parallax {
@@ -29,19 +31,23 @@
     width: 100%;
 }
 
+
 .myblog {
     display: grid;
-    margin: 3rem;
     grid-template-columns: repeat(2, 1fr);
+    width: 71.375rem;
+    margin: auto;
 }
+
 
 .info {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    padding: 14px;
-    background-color: #2d2827;
-    color: white;
-    // text-align: center;
+    padding-top: 60px;
+    justify-items: center;
+    margin: auto;
+    height: 425px;
+
 }
 
 .insta-grid {
@@ -56,19 +62,3 @@
         object-fit: cover;
     }
 }
-
-.navbar-about {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-}
-
-
-
-
-
-
-
-
-
-    
-

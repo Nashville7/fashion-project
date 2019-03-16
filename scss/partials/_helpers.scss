@@ -1,177 +1,198 @@
+// Topnav
 #top {
-  width: 100%;
-  height: 53px;
-  color: white;
-  background-color: #2d2827;
-  position: absolute;
-  top: 0;
-  text-align: center;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.ship {
-  width: 349px;
-  height: 9px;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 12px;
-  font-weight: normal;
-  text-transform: uppercase;
-  font-style: normal;
-  margin-top: 5px;
-  font-stretch: normal;
-  line-height: 1.83;
-  letter-spacing: 2.4px;
-  text-align: left;
-  color: #999999;
-  white-space: nowrap;
-}
-
-.fas .fa-angle-down {
-  width: 7px;
-  height: 5px;
-  font-family: FontAwesome;
-  font-size: 12px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: #999999;
-}
-
-i {
-  margin-left: 8px;
-}
-
-#top span {
-  padding: 5px;
-  color: #999999;
-  font-size: 12px;
-}
-
-// right handed icons top
-.icons {
-  width: 297px;
-  height: 15px;
-  font-family: FontAwesome;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: #999999;
-  float: right
-}
-
-.navbar {
- margin: 0;
- padding: 0;
-}
-
-.navbar ul {
-  padding-top: 4rem; 
-  padding-left: 0;
-}
-
-
-.navbar li {
-  list-style: none;
-  display: inline;
-  padding: 15px;
-}
-
-.navbar a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  font-family: 'Dosis', sans-serif;
-}
-
-nav a:hover {
-  color: yellow;
-  transition: all 0.5s ease-in-out;
-}
-
-
-.nateb {
-  font-family: 'Dosis', sans-serif;
-  font-size: 30px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.8;
-  letter-spacing: 6px;
-  text-align: left;
-  color: #fffefe;
-}
-
-.search {
-  width: 22px;
-  height: 23px;
-  font-family: Linearicons-Free;
-  font-size: 22px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 1.1px;
-  text-align: left;
-  color: #ffffff;
-}
-
-.shop {
-  color: white;
-  width: 21px;
-  height: 18px;
-  font-family: FontAwesome;
-  font-size: 22px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 1.1px;
-  text-align: left;
-  color: #ffffff;
-}
-
-.fashion-heading p {
-  width: 924px;
-  height: 39px;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.67;
-  letter-spacing: normal;
-  text-align: center;
-  color: $main-paragraph;
-  max-width: 800vw;
-  margin: auto;
-}
-
-.home {
-  padding-left: 176px !important;
-}
-
-.lookbook {
-  padding-right: 176px !important;
-}
-
-// featured product
-  #featured-product-container {
-    height: 704px;
-    background-color:$bgcolor;
+    color: white;
+    background-color: #2d2827;
+    position: absolute;
+    top: 0;
     width: 100%;
+    height: 53px;
+}
+// En and Zar properties
+#top span {
+    padding: 5px;
+    color: #999999;
+    font-size: 12px;
+}
+
+// icons property
+i {
+    margin-left: 8px;
+}
+
+// En and Zar properties
+.fas .fa-angle-down {
+    width: 7px;
+    height: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999;
   }
   
 
+.ship {
+    width: 349px;
+    height: 9px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-style: normal;
+    margin-top: 5px;
+    font-stretch: normal;
+    line-height: 1.83;
+    letter-spacing: 2.4px;
+    text-align: left;
+    color: #999999;
+    white-space: nowrap;
+  }
+//right side icons properties
+.icons {
+    width: 297px;
+    height: 15px;
+    font-family: FontAwesome;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999;
+    float: right
+  }
 
-.main-title {
+// navbar properties start
+  
+.navbar {
+    margin: 0;
+    padding: 0;
+   }
+   
+.navbar ul {
+    padding-top: 4rem; 
+    padding-left: 0;
+   }
+   
+   
+.navbar li {
+     list-style: none;
+     display: inline;
+     padding: 15px;
+   }
+   
+.navbar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+   }
+   
+nav a:hover {
+    color: yellow;
+    transition: all 0.5s ease-in-out;
+   }
+// navbar properties end
+
+// styling of the nateb logo
+.nateb {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.8;
+    letter-spacing: 6px;
+    text-align: left;
+    color: #fffefe;
+  }
+
+// search item on the left side in the ul
+  .search {
+    width: 22px;
+    height: 23px;
+    font-family: Linearicons-Free;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.1px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+// shop item on the right side in the ul
+  .shop {
+    color: white;
+    width: 21px;
+    height: 18px;
+    font-family: FontAwesome;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.1px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .home {
+    padding-left: 176px !important;
+  }
+  
+  .lookbook {
+    padding-right: 176px !important;
+  }
+
+//   heading and paragraph of header
+  .fashion-heading  {
+    h1 {
+    height: 38px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.96;
+    letter-spacing: normal;
+    text-align: center;
+    color: $main-heading;
+    text-align: center;  
+    } 
+      p {
+        width: 924px;
+        height: 39px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+        text-align: center;
+        color: $main-paragraph;
+        max-width: 800vw;
+        margin: auto;
+      }
+  }
+
+  // start of the featured product
+  // container
+  #featured-product-container {
+    height: 704px;
+    background-color: var(--white);
+    width: 100%;
+    
+  }
+
+// heading featured product
+  .main-title {
     text-transform: uppercase;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
@@ -180,7 +201,7 @@ nav a:hover {
     margin: 60px auto 92px;
     position: relative;
 }
-
+// border-bottom for featured product with animations
 .main-title::before {
   content: "";
   transform: translateX(-50%);
@@ -194,7 +215,6 @@ nav a:hover {
   animation: move 1s ease-in-out;
 } 
 
-
 @keyframes move {
   from {
     width: 0;
@@ -202,6 +222,104 @@ nav a:hover {
   to {
     width: 50px;
   }
+}
+
+// img of the featured-product
+.featured-product-img {
+  width: 370px;
+  height: 360px;
+  
+}
+
+.blue-jacket {
+
+  h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+  }
+
+    p {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 3.2;
+      letter-spacing: normal;
+      font-size: 15px;
+      font-weight: 600;
+      text-align: center;
+      color: #999999;
+
+    }
+}
+
+.black-cap {
+  h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+  }
+
+    p {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 3.2;
+      letter-spacing: normal;
+      font-size: 15px;
+      font-weight: 600;
+      text-align: center;
+      color: #999999;
+
+    }
+}
+
+.blue-jean-jacket {
+  h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+  }
+
+    p {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 3.2;
+      letter-spacing: normal;
+      font-size: 15px;
+      font-weight: 600;
+      text-align: center;
+      color: #999999;
+
+    }
+}
+
+// New collection
+#new-collection-container {
+  height: 704px;
+  width: 100%;
 }
 
 .main-title2 {
@@ -226,40 +344,37 @@ nav a:hover {
   animation: move 1s ease-in-out;
 }
 
-.content4,
-.content5 {
-  margin: 0px auto;
-  text-align: center;
-
-
-  h3 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    color: #333333;
-  }
-}
-
-.featured-product-img {
-  width: 370px;
-  height: 360px;
-}
-
-// New collection
-#new-collection-container {
-  height: 704px;
-  background-color:$bgcolor;
-  width: 100%;
-}
 
 .new-collection-img {
   width: 570px;
   height: 373px;
 }
 
+// new collection men picture
+.men h5 {
+  font-family: 'Source Sans Pro';
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.92;
+  letter-spacing: 2.5px;
+  text-align: center;
+  color: #a88d7b;
+}
+// new collection woman picture
+.woman h5 {
+  font-family: 'Source Sans Pro';
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.92;
+  letter-spacing: 2.5px;
+  text-align: center;
+  color: #a88d7b;
+}
 
-// _____________________________________
 
 .parallax {
   width: 100%;
@@ -274,14 +389,12 @@ nav a:hover {
 
   p {
     width: 656px;
-    // margin-top: 1rem;
     padding-top: 10rem;
     height: 38px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     text-align: center;
     margin-left: 240px;
- 
     color: #ffffff;
   }
   
@@ -291,42 +404,24 @@ nav a:hover {
   height: 37px;
   font-family: 'Dosis', sans-serif;
   font-size: 48px;
-  // bottom: -3rem;
-  // bottom: -5rem;
-  // bottom: -8rem;
   bottom: -13rem;
   position: relative;
   text-align: center;
   color: #ffffff;
-  // margin-left: 176px;
   margin-left: 300px;
-
-
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: 0.5;
   letter-spacing: normal;
-  
-
-}
-
-
-// blog part sizing
-.myblog {
-  width: 100%;
-  text-align: center;
-  height: 671px;
-  background-color: #f9f9f9;
- 
-
-  h1 {
-    color: black;
-    text-align: center;
-  }
 }
 
 // blog
+#myblog-container {
+    height: 704px;
+    width: 100%;
+}
+
 .blog-name {
   text-transform: uppercase;
   text-align: center;
@@ -349,6 +444,7 @@ nav a:hover {
   font-size: 15px;
   text-align: left;
   color: #666666;
+  padding-left: 2rem;
 
   h4 {
     font-family: 'Source Sans Pro', sans-serif;
@@ -360,131 +456,77 @@ nav a:hover {
 }
 
 
-.read-more {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 15px;
-  text-align: left;
-  color: #a88d7b;
-  list-style-type: none;
-  display: inline;
-  
-
-  .fa .fa-arrow-right {
-    font-family: Linearicons-Free;
-    font-size: 15px;
-    text-align: left;
-    color: #a88d7b;
-}
-
 .info {
   width: 100%;
-  // height: 380px;
   height: 425px;
-
-  p {
-    width: 232px;
-    height: 18px;
-    font-family: SourceSansPro;
-    font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.6;
-    letter-spacing: normal;
-    text-align: left;
-    color: var(--warm-grey);
-  }
- 
+  background-color: #2d2827;
+  color: white;
 }
 
-.location {
-  width: 60px;
-  height: 21px;
-  font-family: 'Dosis', sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  text-align: center;
-  color: #e5e5e5;
-}
- 
-
-.offer,
-.unisex {
-  width: 46px;
-  height: 12px;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  color: #e5e5e5;
-
-  p {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 15px;
-  text-align: left;
-  color: #999999;
-  }
-}
-
-// .instagram-container {
-//   width: 91px;
-//   height: 13px;
-// }
-
-.insta-heading {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  color: #ffffff;
-}
-
-// _________________________________________________
-
-// about page
-
-
-// .who-we-are {
-//   width: 100%;
-//   height: 548px;
-//   background-color: #ffffff;
-// }
-
-#top-about {
-    width: 100%;
-    height: 53px;
-    color: white;
-    background-color: #eeeeee;
-    position: absolute;
-    top: 0;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);  
-
-}
-
-.nav-container {
-  width: 100%;
-  height: 93px;
-  background-color: #ffffff;
-}
-
-.nateb-about {
-  width: 116px;
-  height: 22px;
-  font-family: 'Dosis', sans-serif;
+.full-location {
+  h2 {
+  font-family:'Dosis';
   font-size: 30px;
   font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
   text-align: left;
-  color: #000000;
+  color: #e5e5e5;
+
+  
 }
 
-.blog-img-about {
-  width: 600px;
-  height: 490px;
+p {
+  height: 18px;
+  font-family: 'Source Sans Pro';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+  color: #999999;
 }
 }
 
-#new-collection-container {
-  height: 704px;
-  background-color:$bgcolor;
-  width: 100%;
+.full-offer p,
+.full-unisex p {
+
+  height: 11px;
+  font-family: 'Source Sans Pro';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+  color: #999999;
 }
+
+
+.myheadings {
+  width: 91px;
+  height: 13px;
+  // font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #e5e5e5;
+}
+
+
+
+
+
+
+
+
