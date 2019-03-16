@@ -72,3 +72,11 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .who-we-are {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 71.375rem;
+    margin: auto;
+    margin-top: 60px;
+}
