@@ -62,3 +62,13 @@
         object-fit: cover;
     }
 }
+
+// _______________End of homepage_____________
+
+// _______________start of about page__________
+
+#top-about {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
