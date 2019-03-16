@@ -148,8 +148,12 @@ i {
   font-family: 'Dosis', sans-serif; }
 
 nav a:hover {
-  color: yellow;
-  transition: all 0.5s ease-in-out; }
+  font-size: 20px;
+  color: #b8a5a5;
+  transition: all 0.5s ease-in-out;
+  font-weight: bolder;
+  transition-timing-function: linear;
+  transition-duration: 1s; }
 
 .nateb {
   font-family: 'Dosis', sans-serif;
@@ -844,6 +848,10 @@ nav a:hover {
   margin-top: 39px;
   border: solid 1px #e6e6e6;
   background-color: #f0f0f0; }
+
+.blog-page-container {
+  height: 928px;
+  background-color: #ffffff; }
 
 body {
   margin: 0;

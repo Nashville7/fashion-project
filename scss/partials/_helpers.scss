@@ -93,8 +93,12 @@ i {
    }
    
 nav a:hover {
-    color: yellow;
+    font-size: 20px;
+    color: rgb(184, 165, 165);
     transition: all 0.5s ease-in-out;
+    font-weight: bolder;
+    transition-timing-function: linear;
+    transition-duration: 1s;
    }
 // navbar properties end
 
@@ -980,6 +984,13 @@ h4 {
   margin-top: 39px;
   border: solid 1px #e6e6e6;
   background-color: #f0f0f0;
+}
+
+// _______blog page_________
+
+.blog-page-container {
+  height: 928px;
+  background-color: #ffffff;
 }
 
 
