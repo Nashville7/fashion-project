@@ -1,7 +1,7 @@
+
 // Topnav
 #top {
-    color: white;
-    background-color: #2d2827;
+    color: #ffffff;
     position: absolute;
     top: 0;
     width: 100%;
@@ -92,7 +92,7 @@ i {
     font-family: 'Dosis', sans-serif;
    }
    
-nav a:hover {
+.navbar a:hover {
     font-size: 20px;
     color: rgb(184, 165, 165);
     transition: all 0.5s ease-in-out;
@@ -135,7 +135,6 @@ nav a:hover {
     color: white;
     width: 21px;
     height: 18px;
-    font-family: FontAwesome;
     font-size: 22px;
     font-weight: normal;
     font-style: normal;
@@ -633,8 +632,12 @@ p {
  }
  
 .navbar-about a:hover {
-  color: yellow;
+  font-size: 20px;
+  color: rgb(184, 165, 165);
   transition: all 0.5s ease-in-out;
+  font-weight: bolder;
+  transition-timing-function: linear;
+  transition-duration: 1s;
  }
  .search-about {
   width: 19px;
@@ -750,7 +753,7 @@ h4 {
 
 .meet-the-team-container {
   height: 721px;
-  background-color: #ffffff;
+  background-color: $main-heading;
 }
 
 .meet-the-team-title {
@@ -989,13 +992,14 @@ h4 {
 // form
 
 .form-container {
-  height: 1841px;
+  height: 600px;
+  width: 100%;
 }
 
-form {
+.my-form {
 width: 71.375rem;
 margin: auto;
-margin-top: -1639px;
+margin-top: -1565px;
 
 }
 
@@ -1005,6 +1009,7 @@ margin-top: -1639px;
   height: 50px;
   border: solid 1px #e6e6e6;
   background-color: #ffffff;
+  margin-bottom: 30px;
 
 }
 
@@ -1013,12 +1018,14 @@ margin-top: -1639px;
   height: 50px;
   border: solid 1px #e6e6e6;
   background-color: #ffffff;
+  margin-bottom: 30px;
+  
 
 }
 
 .messages input  {
-  width: 570px;
-  height: 50px;
+  width: 1170px;
+  height: 150px;
   border: solid 1px #e6e6e6;
   background-color: #ffffff;
 
@@ -1029,14 +1036,20 @@ margin-top: -1639px;
   height: 50px;
   border: solid 1px #e6e6e6;
   background-color: #ffffff;
+  margin-bottom: 30px;
+  position: absolute;
+  left: 707px;
 
 }
 
 .subject input   {
   width: 570px;
+  position: absolute;
+  left: 707px;
   height: 50px;
   border: solid 1px #e6e6e6;
   background-color: #ffffff;
+  margin-bottom: 30px;
 
 }
 
@@ -1044,6 +1057,9 @@ margin-top: -1639px;
   width: 155px;
   height: 40px;
   background-color: #ac907f;
+  margin-top:39px; 
+  margin-bottom: 100px;
+
 }
 
 
@@ -1153,8 +1169,47 @@ margin-top: -1639px;
     color: #666666;
   }
 
+  // ____Lookbook________
 
 
+// masonry type gallery
+.lookbook {
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+    width: 100%;
+}
+
+.lookbook-container {
+    padding: 20px;
+}
+
+// gallery images properties
+.lookbook img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.lookbook img:hover {
+    color: white;
+    box-shadow: 7px 6px 7px black, -12px -5px 9px black;
+    opacity: 1;
+    transition: box-shadow 0.2s ease-out;
+}
+
+.glasses {
+  grid-column: span 2;
+}
+
+.happy {
+  grid-column: span 2;
+}
+.grey {
+  grid-column: span 2;
+}
+// end of the masonry type gallery
 
 
 

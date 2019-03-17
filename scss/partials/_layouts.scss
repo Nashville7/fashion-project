@@ -123,3 +123,43 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
+//   form
+
+.my-form {
+    display: grid;
+    width: 71.375rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+        "username email"
+        "number subject"
+        "message ."
+        "button .";
+}
+
+
+.username {
+    grid-area: username;
+}
+
+.phone-number {
+    grid-area: number;
+}
+
+.email {
+    grid-area: email;
+}
+
+.subject {
+    grid-area: subject;
+}
+
+.messages {
+    grid-area: message;
+}
+
+.btn {
+    grid-area: button;
+}
+
+// end of form
