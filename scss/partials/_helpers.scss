@@ -1171,34 +1171,26 @@ margin-top: -1565px;
 
   // ____Lookbook________
 
-
-// masonry type gallery
-.lookbook {
-    display: grid;
-    grid-template-columns:repeat(5, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 20px;
-    width: 100%;
-}
-
 .lookbook-container {
     padding: 20px;
 }
 
-// gallery images properties
+// lookbook images properties
 .lookbook img {
     height: 100%;
     width: 100%;
     opacity: 0.8;
 }
 
+// images hover
 .lookbook img:hover {
     color: white;
-    box-shadow: 7px 6px 7px black, -12px -5px 9px black;
+    box-shadow: 7px 6px 7px black, -8px -3px 9px black;
     opacity: 1;
     transition: box-shadow 0.2s ease-out;
 }
 
+// few images of the lookbook
 .glasses {
   grid-column: span 2;
 }
@@ -1209,7 +1201,7 @@ margin-top: -1565px;
 .grey {
   grid-column: span 2;
 }
-// end of the masonry type gallery
+// end of the lookbook
 
 
 
