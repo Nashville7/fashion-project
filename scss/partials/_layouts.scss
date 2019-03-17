@@ -108,3 +108,18 @@
     margin: auto;
     margin-top: 60px;
 }
+
+.blog-page {
+    display: grid;
+    width: 71.375rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.info-blog {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
