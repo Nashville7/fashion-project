@@ -300,7 +300,8 @@ i {
   line-height: 2.4;
   letter-spacing: normal;
   text-align: center;
-  color: #333333; }
+  color: #333333;
+  margin-top: 0; }
 .black-cap p {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
@@ -435,7 +436,19 @@ i {
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 36px;
-  color: #333333; }
+  color: #333333;
+  position: relative; }
+
+.blog-name::before {
+  content: "";
+  transform: translateX(-50%);
+  bottom: 0;
+  left: 50%;
+  height: 2px;
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: #a88d7b; }
 
 .blog-index-img {
   width: 585px;
@@ -1209,7 +1222,7 @@ footer {
   .blue-jacket {
     grid-area: jacket;
     text-align: center;
-    width: 92vw; }
+    width: 100vw; }
 
   .blue-jacket h3 {
     font-family: 'Source Sans Pro', sans-serif;
@@ -1288,16 +1301,16 @@ footer {
   .men {
     grid-area: men;
     text-align: center;
-    padding-top: 446px;
-    width: 89vw; }
+    width: 100vw; }
 
   .woman {
     grid-area: woman;
     text-align: center;
-    width: 103vw; }
+    width: 100vw; }
 
   .main-title2 {
-    font-size: 20px; }
+    font-size: 20px;
+    padding-top: 594px; }
 
   .myblog {
     display: grid;
@@ -1309,8 +1322,22 @@ footer {
     width: 265px;
     height: 240px;
     text-align: center;
-    width: 92vw;
-    margin-top: 500px; }
+    width: 92vw; }
+
+  .parallax p {
+    height: 38px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    padding: 0;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 104px;
+    color: #ffffff; }
+
+  .jackie {
+    margin-bottom: 67px;
+    margin-left: -96px;
+    margin-top: -193px; }
 
   .blog-index-img {
     width: 265px;
@@ -1325,8 +1352,7 @@ footer {
     color: #333333;
     position: relative;
     width: 89vw;
-    font-size: 21px;
-    padding-top: 400px; }
+    font-size: 21px; }
 
   .blog-text h4 {
     text-align: center;
@@ -1337,9 +1363,60 @@ footer {
     text-align: center;
     width: 89vw;
     font-size: 21px;
-    padding-left: 0; } }
+    padding-left: 0; }
+
+  .parallax {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin-top: 791px; }
+
+  .jackie {
+    /* width: 530px; */
+    height: 37px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 48px;
+    margin-right: 572px;
+    /* bottom: -13rem; */
+    position: relative;
+    /* text-align: center; */
+    color: #ffffff;
+    /* margin-left: 300px; */
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.5;
+    letter-spacing: normal; } }
 /* Responsive Design */
 /*Tablets*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) {
+  .featured-product {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+    width: 71.375rem;
+    grid-gap: 1rem;
+    grid-template-areas: "title" "bluej" "cap" "bjj"; }
+
+  .main-title {
+    grid-area: title; }
+
+  .blue-jacket {
+    grid-area: bluej; }
+
+  .blue-cap {
+    grid-area: cap; }
+
+  .blue-jean-jacket {
+    grid-area: bjj; }
+
+  .featured-product {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+    width: 71.375rem;
+    grid-gap: 1rem;
+    grid-template-areas: "title" "bluej" "cap" "bjj"; } }
 /* Responsive Design
    /*Desktop*/
 @media screen and (min-device-width: 1024px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {

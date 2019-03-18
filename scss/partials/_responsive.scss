@@ -32,7 +32,7 @@
         "h2" 
         "jacket"
         "cap"
-        "bjacket"
+        "bjacket";
 }
 
 
@@ -47,7 +47,8 @@
 .blue-jacket {
     grid-area: jacket;
     text-align: center;
-    width: 92vw;
+    // width: 92vw;
+    width: 100vw;
 }
 
 .blue-jacket h3 {
@@ -132,7 +133,7 @@
     grid-template-areas: 
         "title2"
         "men"
-        "woman"
+        "woman";
 }
 
 .new-collection-img {
@@ -152,20 +153,22 @@
 .men {
     grid-area: men;
     text-align: center;
-    padding-top: 446px;
-    width: 89vw;
+    // width: 89vw;
+    width: 100vw;
 
 }
 
 .woman {
     grid-area: woman;
     text-align: center;
-    width: 103vw;
+    // width: 90vw;
+    width: 100vw;
 }
 
 .main-title2 {
     font-size: 20px;
     // padding-top: 677px;
+    padding-top: 594px;
 }
 
 
@@ -181,7 +184,25 @@
     height: 240px;
     text-align: center;
     width: 92vw;
-    margin-top: 500px;
+    // margin-top: 500px;
+    
+}
+
+.parallax p {
+    height: 38px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    padding: 0;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 104px;
+    color: #ffffff;
+}
+
+.jackie {
+    margin-bottom: 67px;
+    margin-left: -96px;
+    margin-top: -193px;
 }
 
 .blog-index-img {
@@ -199,7 +220,7 @@
     position: relative;
     width: 89vw;
     font-size: 21px;
-    padding-top: 400px;
+    
 }
 
 .blog-text h4 {
@@ -213,6 +234,31 @@
     width: 89vw;
     font-size: 21px;
     padding-left: 0;
+}
+
+.parallax {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin-top: 791px;
+}
+
+.jackie {
+    /* width: 530px; */
+    height: 37px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 48px;
+    margin-right: 572px;
+    /* bottom: -13rem; */
+    position: relative;
+    /* text-align: center; */
+    color: #ffffff;
+    /* margin-left: 300px; */
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.5;
+    letter-spacing: normal;
 }
 
 
@@ -234,10 +280,57 @@
     and (min-device-width: 768px) 
     and (max-device-width: 1023px) 
     and (-webkit-min-device-pixel-ratio: 1) {
+        .featured-product {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            margin: auto;   
+            width: 71.375rem;
+            grid-gap: 1rem;
+            grid-template-areas: 
+                "title"
+                "bluej"
+                "cap"
+                "bjj";
+            
+        }
 
+        .main-title {
+            grid-area: title;
+        }
+
+        .blue-jacket {
+            grid-area: bluej;
+        }
+
+        .blue-cap {
+            grid-area: cap;
+        }
+        .blue-jean-jacket {
+            grid-area: bjj;
+        }
+
+        // ____end of featured product___
+
+
+        // start of new-collection
+
+        .featured-product {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            margin: auto;   
+            width: 71.375rem;
+            grid-gap: 1rem;
+            grid-template-areas: 
+                "title"
+                "bluej"
+                "cap"
+                "bjj";
+
+            // .main
 
       
  }
+    }
 
  /* Responsive Design
     /*Desktop*/
