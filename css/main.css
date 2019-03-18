@@ -1400,24 +1400,51 @@ footer {
     grid-template-areas: "title" "bluej" "cap" "bjj"; }
 
   .main-title {
-    grid-area: title; }
+    grid-area: title;
+    text-align: center;
+    width: 92vw; }
 
   .blue-jacket {
-    grid-area: bluej; }
+    grid-area: bluej;
+    text-align: center;
+    width: 92vw; }
 
   .blue-cap {
-    grid-area: cap; }
+    grid-area: cap;
+    text-align: center;
+    width: 92vw; }
 
   .blue-jean-jacket {
-    grid-area: bjj; }
+    grid-area: bjj;
+    text-align: center;
+    width: 92vw; }
 
-  .featured-product {
+  .new-collection-img {
+    text-align: center;
+    width: 92vw; }
+
+  .new-collection {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin: auto;
     width: 71.375rem;
     grid-gap: 1rem;
-    grid-template-areas: "title" "bluej" "cap" "bjj"; } }
+    grid-template-areas: "title2" "men" "woman"; }
+
+  .main-title2 {
+    grid-area: title2;
+    text-align: center;
+    width: 92vw; }
+
+  .men {
+    grid-area: men;
+    text-align: center;
+    width: 106vw; }
+
+  .woman {
+    grid-area: woman;
+    text-align: center;
+    width: 106vw; } }
 /* Responsive Design
    /*Desktop*/
 @media screen and (min-device-width: 1024px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {

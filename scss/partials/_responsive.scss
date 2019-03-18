@@ -289,17 +289,32 @@
 
         .main-title {
             grid-area: title;
+            text-align: center;
+            width: 92vw;
         }
 
         .blue-jacket {
             grid-area: bluej;
+            text-align: center;
+            width: 92vw;
+            
         }
 
         .blue-cap {
             grid-area: cap;
+            text-align: center;
+            width: 92vw;
         }
+
         .blue-jean-jacket {
             grid-area: bjj;
+            text-align: center;
+            width: 92vw;
+        }
+
+        .new-collection-img {
+            text-align: center;
+            width: 92vw;
         }
 
         // ____end of featured product___
@@ -307,23 +322,38 @@
 
         // start of new-collection
 
-        .featured-product {
+        .new-collection {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             margin: auto;   
             width: 71.375rem;
             grid-gap: 1rem;
             grid-template-areas: 
-                "title"
-                "bluej"
-                "cap"
-                "bjj";
+                "title2"
+                "men"
+                "woman";
+        }
 
-            // .main
+        .main-title2 {
+            grid-area: title2;
+            text-align: center;
+            width: 92vw;
+        }
 
+        .men {
+            grid-area: men;
+            text-align: center;
+            width: 106vw;
+        }
+
+        .woman {
+            grid-area: woman;
+            text-align: center;
+            width: 106vw;
+        }
       
  }
-    }
+    
 
  /* Responsive Design
     /*Desktop*/
