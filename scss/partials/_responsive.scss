@@ -257,6 +257,62 @@
     margin-top: 791px;
 }
 
+// Instagram grid
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    padding-top: 60px;
+    justify-items: center;
+    margin: auto;
+    height: 425px;
+    grid-template-areas: 
+        "location"
+        "offer"
+        "unisex"
+        "heading"
+        "insta"
+        "insta"
+
+}
+
+.full-location {
+    grid-area: location;
+}
+
+.full-offer {
+    grid-area: offer;
+}
+
+.full-unisex {
+    grid-area: unisex;
+}
+
+.myheadings {
+    grid-area: heading;
+}
+
+.insta-grid {
+    grid-area: insta;
+}
+
+
+.insta-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 5rem);
+    text-align: center;
+    
+    img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+    }
+}
+
+footer {
+    margin-top: 437px;
+}
+
 
 
 
