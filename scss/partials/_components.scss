@@ -62,6 +62,11 @@ button {
   position: relative;
   bottom: 4rem;
   left: 31rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.view-button:hover {
+width: 138px;
 }
 
 

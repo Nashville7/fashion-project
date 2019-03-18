@@ -234,6 +234,13 @@ i {
   
 }
 
+.featured-product-img:hover {
+  color: white;
+  box-shadow: 7px 6px 7px black, -4px -3px 9px black;
+  opacity: 1;
+  transition: box-shadow 0.2s ease-out;
+}
+
 .blue-jacket {
 
   h3 {
@@ -353,6 +360,12 @@ i {
   height: 373px;
 }
 
+.new-collection-img:hover {
+  color: white;
+  box-shadow: 7px 6px 7px black, -4px -3px 9px black;
+  opacity: 1;
+  transition: box-shadow 0.2s ease-out;
+}
 // new collection men picture
 .men h5 {
   font-family: 'Source Sans Pro';
@@ -870,7 +883,7 @@ h4 {
 
 .contact-container {
   height: 1841px;
-  // background: red;
+ 
 }
 
 
