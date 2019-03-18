@@ -290,6 +290,23 @@
 
 .myheadings {
     grid-area: heading;
+    text-align: center;
+    width: 100vw;
+}
+
+.full-offer p, .full-unisex p {
+    height: 11px;
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #999999;
+    text-align: center;
+    width: 100vw;
 }
 
 .insta-grid {
