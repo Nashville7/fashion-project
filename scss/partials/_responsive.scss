@@ -21,6 +21,8 @@
 //     display: block;
   
 //   }
+
+// ________start of featured product___
 .featured-product {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -39,32 +41,13 @@
     text-align: center;
     width: 89vw;
     font-size: 21px;
+    margin: 20px 0;
 }
 
 .blue-jacket {
     grid-area: jacket;
     text-align: center;
     width: 92vw;
-}
-.blue-jacket p {
-    text-align: center;
-    width: 89vw;
-    font-size: 21px;
-}
-
-.black-cap {
-    grid-area: cap;
-    text-align: center;
-    width: 103vw;
-}
-
-.blue-jean-jacket {
-    grid-area: bjacket;
-}
-
-.featured-product-img {
-    width: 265px;
-    height: 240px;
 }
 
 .blue-jacket h3 {
@@ -87,9 +70,59 @@
     letter-spacing: normal;
     font-size: 15px;
     font-weight: 600;
-    text-align: left;
+    text-align: none;
     color: #999999;
 }
+
+// .blue-jacket p {
+//     text-align: center;
+//     width: 89vw;
+//     font-size: 21px;
+// }
+
+
+
+.black-cap {
+    grid-area: cap;
+    text-align: center;
+    width: 106vw;
+}
+
+.black-cap h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.4;
+    letter-spacing: normal;
+    color: #333333;
+}
+
+.black-cap p {
+    text-align: center;
+    width: 89vw;
+    font-size: 21px;
+}
+
+.blue-jean-jacket {
+    grid-area: bjacket;
+    text-align: center;
+    width: 92vw;
+}
+.blue-jean-jacket p {
+    text-align: center;
+    width: 89vw;
+    font-size: 21px;
+}
+
+.featured-product-img {
+    width: 265px;
+    height: 240px;
+}
+
+
+// _______end of the featured product____
 
 .new-collection {
     display: grid;
@@ -97,7 +130,7 @@
     margin: auto;
     grid-gap: 1rem;
     grid-template-areas: 
-        "title"
+        "title2"
         "men"
         "woman"
 }
@@ -109,21 +142,81 @@
 
 
 .main-title2 {
-    grid-area: title;
+    grid-area: title2;
+    text-align: center;
+    width: 89vw;
+    font-size: 21px;
+    padding-top: 621px;
 }
 
 .men {
     grid-area: men;
+    text-align: center;
+    padding-top: 446px;
+    width: 89vw;
+
 }
 
 .woman {
     grid-area: woman;
+    text-align: center;
+    width: 103vw;
 }
 
 .main-title2 {
     font-size: 20px;
-    padding-top: 78px;
+    // padding-top: 677px;
 }
+
+
+.myblog {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 71.375rem;
+    margin: auto;
+}
+
+.parallax {
+    width: 265px;
+    height: 240px;
+    text-align: center;
+    width: 92vw;
+    margin-top: 500px;
+}
+
+.blog-index-img {
+    width: 265px;
+    height: 240px;
+    text-align: center;
+    width: 92vw;
+}
+
+.blog-name {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333333;
+    position: relative;
+    width: 89vw;
+    font-size: 21px;
+    padding-top: 400px;
+}
+
+.blog-text h4 {
+    text-align: center;
+    width: 89vw;
+    font-size: 21px;
+}
+
+.blog-text{
+    text-align: center;
+    width: 89vw;
+    font-size: 21px;
+    padding-left: 0;
+}
+
+
+
 
 
 
