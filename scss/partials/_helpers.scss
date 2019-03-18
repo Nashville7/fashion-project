@@ -805,7 +805,7 @@ h4::before {
 }
 
 .meet-the-team-title {
-  height: 24px;
+  height: 42px;
   font-family: 'Source Sans Pro';
   font-size: 36px;
   font-weight: normal;
@@ -816,7 +816,20 @@ h4::before {
   text-align: center;
   color: #333333;
   margin: 0px auto 92px;
+  position: relative;
 }
+
+.meet-the-team-title::before {
+  content: "";
+  transform: translateX(-50%);
+  bottom: 0;
+  left: 50%;
+  height: 2px;
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: #a88d7b;
+} 
 
 .meet-the-team-img {
   width: 270px;
@@ -845,11 +858,8 @@ h4::before {
       height: 14px;
       font-family: 'Source Sans Pro';
       font-size: 15px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
+      @include sizing;
       line-height: 1.47;
-      letter-spacing: normal;
       text-align: center;
       color: #999999;
 
@@ -879,29 +889,36 @@ h4::before {
 
 .what-we-do-text {
   h4 {
-    height: 24px;
     font-family: 'Source Sans Pro';
     font-size: 36px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 0.67;
-    letter-spacing: normal;
+    @include sizing;
     text-align: center;
     color: #333333;
+    position: relative;
+
+    
   }
   p {
     font-family: 'Source Sans Pro';
     font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
+    @include sizing;
     line-height: 1.67;
-    letter-spacing: normal;
     text-align: left;
     color: #666666;
   }
 }
+
+.what-we-do-text h4::before {
+  content: "";
+  transform: translateX(-50%);
+  bottom: 0;
+  left: 50%;
+  height: 2px;
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: #a88d7b;
+} 
 
 .what-we-do-img {
   width: 600px;
