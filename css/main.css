@@ -81,6 +81,9 @@ button {
   width: 100%;
   height: 53px; }
 
+body {
+  margin: 0; }
+
 #top span {
   padding: 5px;
   color: #999999;
@@ -136,6 +139,7 @@ i {
   padding: 0; }
 
 .navbar ul {
+  margin-top: 0;
   padding-top: 4rem;
   padding-left: 0; }
 
@@ -681,7 +685,7 @@ i {
   text-align: left;
   color: #666666; }
   .who-we-are-text h4 {
-    height: 24px;
+    height: 32px;
     font-family: 'SourceSansPro';
     font-size: 36px;
     font-weight: normal;
@@ -690,7 +694,18 @@ i {
     line-height: 0.67;
     letter-spacing: normal;
     text-align: center;
-    color: #333333; }
+    color: #333333;
+    position: relative; }
+  .who-we-are-text h4::before {
+    content: "";
+    transform: translateX(-50%);
+    bottom: 0;
+    left: 50%;
+    height: 2px;
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #a88d7b; }
 
 .meet-the-team-container {
   height: 721px;
@@ -707,7 +722,7 @@ i {
   letter-spacing: normal;
   text-align: center;
   color: #333333;
-  margin: 60px auto 92px; }
+  margin: 0px auto 92px; }
 
 .meet-the-team-img {
   width: 270px;
@@ -1326,18 +1341,20 @@ footer {
 
   .parallax p {
     height: 38px;
+    width: 291px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 12px;
-    padding: 0;
     text-align: center;
-    margin-left: 0;
-    margin-top: 104px;
-    color: #ffffff; }
+    width: 100vw;
+    font-size: 12px;
+    margin-left: 0vw;
+    margin-top: -83px; }
 
   .jackie {
     margin-bottom: 67px;
     margin-left: -96px;
-    margin-top: -193px; }
+    margin-top: -193px;
+    font-size: 31px; }
 
   .blog-index-img {
     width: 265px;
@@ -1352,12 +1369,13 @@ footer {
     color: #333333;
     position: relative;
     width: 89vw;
-    font-size: 21px; }
+    font-size: 21px !important; }
 
   .blog-text h4 {
     text-align: center;
-    width: 89vw;
-    font-size: 21px; }
+    font-size: 21px;
+    text-align: center;
+    width: 92vw; }
 
   .blog-text {
     text-align: center;
@@ -1369,24 +1387,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     width: 100%;
-    margin-top: 791px; }
-
-  .jackie {
-    /* width: 530px; */
-    height: 37px;
-    font-family: 'Dosis', sans-serif;
-    font-size: 48px;
-    margin-right: 572px;
-    /* bottom: -13rem; */
-    position: relative;
-    /* text-align: center; */
-    color: #ffffff;
-    /* margin-left: 300px; */
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 0.5;
-    letter-spacing: normal; } }
+    margin-top: 791px; } }
 /* Responsive Design */
 /*Tablets*/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) {

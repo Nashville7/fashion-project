@@ -190,19 +190,30 @@
 
 .parallax p {
     height: 38px;
+    width: 291px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 12px;
-    padding: 0;
+    // padding: 0;
+    // text-align: center;
+    // margin-left: 13vw;
+    // // margin-top: 104px;
+    // margin-top: 67px;
+    // color: #ffffff;
+    // width: 89vw;
     text-align: center;
-    margin-left: 0;
-    margin-top: 104px;
-    color: #ffffff;
+    width: 100vw;
+    font-size: 12px;
+    margin-left: 0vw;
+    margin-top: -83px;
 }
 
 .jackie {
     margin-bottom: 67px;
     margin-left: -96px;
     margin-top: -193px;
+    font-size: 31px;
+    
+   
 }
 
 .blog-index-img {
@@ -219,14 +230,16 @@
     color: #333333;
     position: relative;
     width: 89vw;
-    font-size: 21px;
+    font-size: 21px !important;
     
 }
 
 .blog-text h4 {
     text-align: center;
-    width: 89vw;
+    // width: 89vw;
     font-size: 21px;
+    text-align: center;
+    width: 92vw;
 }
 
 .blog-text{
@@ -234,6 +247,7 @@
     width: 89vw;
     font-size: 21px;
     padding-left: 0;
+    
 }
 
 .parallax {
@@ -242,27 +256,6 @@
     width: 100%;
     margin-top: 791px;
 }
-
-.jackie {
-    /* width: 530px; */
-    height: 37px;
-    font-family: 'Dosis', sans-serif;
-    font-size: 48px;
-    margin-right: 572px;
-    /* bottom: -13rem; */
-    position: relative;
-    /* text-align: center; */
-    color: #ffffff;
-    /* margin-left: 300px; */
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 0.5;
-    letter-spacing: normal;
-}
-
-
-
 
 
 

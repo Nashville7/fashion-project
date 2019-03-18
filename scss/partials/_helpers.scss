@@ -7,6 +7,10 @@
     width: 100%;
     height: 53px;
 }
+
+body {
+  margin: 0;
+}
 // En and Zar properties
 #top span {
     padding: 5px;
@@ -74,6 +78,7 @@ i {
    }
    
 .navbar ul {
+  margin-top: 0;
     padding-top: 4rem; 
     padding-left: 0;
    }
@@ -762,7 +767,7 @@ color: #666666;
 
 h4 {
  
-  height: 24px;
+  height: 32px;
   font-family: 'SourceSansPro';
   font-size: 36px;
   font-weight: normal;
@@ -772,8 +777,23 @@ h4 {
   letter-spacing: normal;
   text-align: center;
   color: #333333;
+  position: relative;
 }
+h4::before {
+  content: "";
+  transform: translateX(-50%);
+  bottom: 0;
+  left: 50%;
+  height: 2px;
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: #a88d7b;
+
+} 
 }
+
+
 
 // end of about page who we are
 
@@ -795,7 +815,7 @@ h4 {
   letter-spacing: normal;
   text-align: center;
   color: #333333;
-  margin: 60px auto 92px;
+  margin: 0px auto 92px;
 }
 
 .meet-the-team-img {
