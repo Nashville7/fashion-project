@@ -175,4 +175,15 @@
 }
 
 
+// ____shop______
+
+.well {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 71.375rem;
+    grid-gap: 20px;
+    margin: auto;
+}
+
+
 

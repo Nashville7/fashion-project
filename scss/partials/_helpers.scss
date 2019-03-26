@@ -713,7 +713,7 @@ p {
   h1 {
   
     height: 35px;
-    font-family: 'SourceSansPro';
+    font-family: 'Source Sans Pro';
     font-size: 50px;
     font-weight: normal;
     font-style: normal;
@@ -1270,9 +1270,22 @@ margin: auto;
 
 // end of the lookbook
 
+// ___________________shop____
 
+.container {
+  height: 1610px;
+  background-color: #f5f5f5;
+}
 
+.image1 {
+  width: 300px;
+  height: 300px;
+  background-color: #666666;
+}
 
+.shop-section {
+  text-align: center;
+}
 
 
 

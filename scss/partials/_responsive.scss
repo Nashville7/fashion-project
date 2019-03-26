@@ -12,22 +12,23 @@
 @media only screen 
     and (min-device-width: 320px) 
     and (max-device-width: 767px) {
-//         .header {
-//             width: 100vw;
-//             height: 100vh;
-//           }
-          
-// .navbar a {
-//     display: block;
-  
-//   }
+
+.fashion-heading  {
+        p {
+            width: 46vw !important;
+        }
+
+        h1 {
+            font-size: 29px;
+        }
+    
+}
 
 // ________start of featured product___
 .featured-product {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin: auto;   
-
     grid-template-areas:
         "h2" 
         "jacket"
@@ -35,11 +36,10 @@
         "bjacket";
 }
 
-
 .main-title {
     grid-area: h2;
     text-align: center;
-    width: 89vw;
+    width: 99vw;
     font-size: 21px;
     margin: 20px 0;
 }
@@ -47,7 +47,6 @@
 .blue-jacket {
     grid-area: jacket;
     text-align: center;
-    // width: 92vw;
     width: 100vw;
 }
 
@@ -69,57 +68,76 @@
     font-stretch: normal;
     line-height: 3.2;
     letter-spacing: normal;
-    font-size: 15px;
+    font-size: 21px;
     font-weight: 600;
     text-align: none;
     color: #999999;
 }
 
-// .blue-jacket p {
-//     text-align: center;
-//     width: 89vw;
-//     font-size: 21px;
-// }
-
-
-
 .black-cap {
     grid-area: cap;
     text-align: center;
-    width: 106vw;
+    width: 100vw;
 }
 
-.black-cap h3 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 2.4;
-    letter-spacing: normal;
-    color: #333333;
-}
+.black-cap {
+    
+    h3 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.4;
+        letter-spacing: normal;
+        color: #333333;
+    }
 
-.black-cap p {
-    text-align: center;
-    width: 89vw;
-    font-size: 21px;
+    p {
+        text-align: center;
+        width: 97vw;
+        font-size: 21px;
+    }
+   
 }
 
 .blue-jean-jacket {
     grid-area: bjacket;
     text-align: center;
-    width: 92vw;
-}
-.blue-jean-jacket p {
-    text-align: center;
-    width: 89vw;
-    font-size: 21px;
+    width: 100vw;
+
+    p {
+        text-align: center;
+        width: 89vw;
+        font-size: 21px;
+        width: 97vw;
+        font-size: 21px;
+    }
 }
 
 .featured-product-img {
     width: 265px;
     height: 240px;
+}
+
+// new sign on photo
+
+.new {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #a88d7b;
+    text-transform: uppercase;
+    color: white;
+    transform: translate(-120%, 50%);
+    font-size: 12px;
+    outline: none;
+    right: -330px;
+    top: -355px;
+    margin: 0;
+    border: none;
+    position: absolute;
 }
 
 
@@ -130,6 +148,7 @@
     grid-template-columns: repeat(1, 1fr);
     margin: auto;
     grid-gap: 1rem;
+    margin-top: -75px;
     grid-template-areas: 
         "title2"
         "men"
@@ -145,9 +164,12 @@
 .main-title2 {
     grid-area: title2;
     text-align: center;
-    width: 89vw;
-    font-size: 21px;
     padding-top: 621px;
+    width: 99vw;
+    font-size: 21px;
+    margin: 20px 0;
+    font-size: 20px;
+    padding-top: 638px;
 }
 
 .men {
@@ -165,13 +187,6 @@
     width: 100vw;
 }
 
-.main-title2 {
-    font-size: 20px;
-    // padding-top: 677px;
-    padding-top: 594px;
-}
-
-
 .myblog {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -185,21 +200,12 @@
     text-align: center;
     width: 92vw;
     // margin-top: 500px;
-    
 }
 
 .parallax p {
     height: 38px;
     width: 291px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 12px;
-    // padding: 0;
-    // text-align: center;
-    // margin-left: 13vw;
-    // // margin-top: 104px;
-    // margin-top: 67px;
-    // color: #ffffff;
-    // width: 89vw;
     text-align: center;
     width: 100vw;
     font-size: 12px;
@@ -208,19 +214,24 @@
 }
 
 .jackie {
-    margin-bottom: 67px;
-    margin-left: -96px;
+    margin-left:0;
     margin-top: -193px;
     font-size: 31px;
-    
-   
+    text-align: center;
+    width: 102vw;
+}
+
+.view-button {
+    left: -1vw;
+    margin: auto;
+    bottom: 0vh;
 }
 
 .blog-index-img {
     width: 265px;
     height: 240px;
     text-align: center;
-    width: 92vw;
+    width: 100vw;
 }
 
 .blog-name {
@@ -229,12 +240,13 @@
     font-family: 'Source Sans Pro', sans-serif;
     color: #333333;
     position: relative;
-    width: 89vw;
     font-size: 21px !important;
+    margin-top: 42px;
+    margin-bottom: 42px;
     
 }
 
-.blog-text h4 {
+.blogtext h4 {
     text-align: center;
     // width: 89vw;
     font-size: 21px;
@@ -243,14 +255,13 @@
     
 }
 
-.blog-text{
-    text-align: center;
-    width: 89vw;
-    font-size: 21px;
-    padding-left: 0;
-    margin-left: -23px;
-    
-    
+.blogtext {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color: #666666;
+    text-align: left;
+    width: 85vw;
 }
 
 .parallax {
@@ -276,11 +287,15 @@
         "heading"
         "insta"
         "insta"
-
 }
 
 .full-location {
     grid-area: location;
+    margin-left: 10vw;
+
+        h2 {
+            margin-left: -13px;
+        }
 }
 
 .full-offer {
@@ -289,6 +304,7 @@
 
 .full-unisex {
     grid-area: unisex;
+    background-color: #2d2827;
 }
 
 .myheadings {
@@ -312,8 +328,13 @@
     width: 100vw;
 }
 
+.instagram-container {
+    background-color: #2d2827;
+}
+
 .insta-grid {
     grid-area: insta;
+
 }
 
 
@@ -321,6 +342,7 @@
     display: grid;
     grid-template-columns: repeat(4, 5rem);
     text-align: center;
+    grid-gap: 0;
     
     img {
         width: 80px;
@@ -331,16 +353,15 @@
 
 footer {
     margin-top: 437px;
+
+    p {
+        margin-top: -7vh;
+
+    }
 }
 
 
 
-
-
-
-
-
-  
   }
 
   /* Responsive Design */
@@ -349,88 +370,86 @@ footer {
     and (min-device-width: 768px) 
     and (max-device-width: 1023px) 
     and (-webkit-min-device-pixel-ratio: 1) {
-        .featured-product {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            margin: auto;   
-            width: 71.375rem;
-            grid-gap: 1rem;
-            grid-template-areas: 
-                "title"
-                "bluej"
-                "cap"
-                "bjj";
-            
-        }
+    .featured-product {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;   
+        width: 71.375rem;
+        grid-gap: 1rem;
+        grid-template-areas: 
+            "title"
+            "bluej"
+            "cap"
+            "bjj"; 
+    }
 
-        .main-title {
-            grid-area: title;
-            text-align: center;
-            width: 92vw;
-        }
+    .main-title {
+        grid-area: title;
+        text-align: center;
+        width: 92vw;
+    }
 
-        .blue-jacket {
-            grid-area: bluej;
-            text-align: center;
-            width: 92vw;
-            
-        }
+    .blue-jacket {
+        grid-area: bluej;
+        text-align: center;
+        width: 92vw;
+        
+    }
 
-        .blue-cap {
-            grid-area: cap;
-            text-align: center;
-            width: 92vw;
-        }
+    .blue-cap {
+        grid-area: cap;
+        text-align: center;
+        width: 92vw;
+    }
 
-        .blue-jean-jacket {
-            grid-area: bjj;
-            text-align: center;
-            width: 92vw;
-        }
+    .blue-jean-jacket {
+        grid-area: bjj;
+        text-align: center;
+        width: 92vw;
+    }
 
-        .new-collection-img {
-            text-align: center;
-            width: 92vw;
-        }
+    .new-collection-img {
+        text-align: center;
+        width: 92vw;
+    }
 
-        // ____end of featured product___
+    // ____end of featured product___
 
 
-        // start of new-collection
+    // start of new-collection
 
-        .new-collection {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            margin: auto;   
-            width: 71.375rem;
-            grid-gap: 1rem;
-            grid-template-areas: 
-                "title2"
-                "men"
-                "woman";
-        }
+    .new-collection {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;   
+        width: 71.375rem;
+        grid-gap: 1rem;
+        grid-template-areas: 
+            "title2"
+            "men"
+            "woman";
+    }
 
-        .main-title2 {
-            grid-area: title2;
-            text-align: center;
-            width: 92vw;
-        }
+    .main-title2 {
+        grid-area: title2;
+        text-align: center;
+        width: 92vw;
+    }
 
-        .men {
-            grid-area: men;
-            text-align: center;
-            width: 106vw;
-        }
+    .men {
+        grid-area: men;
+        text-align: center;
+        width: 106vw;
+    }
 
-        .woman {
-            grid-area: woman;
-            text-align: center;
-            width: 106vw;
-        }
-      
+    .woman {
+        grid-area: woman;
+        text-align: center;
+        width: 106vw;
+    }
+    
  }
     
-
  /* Responsive Design
     /*Desktop*/
  @media screen 
