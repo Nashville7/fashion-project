@@ -1,100 +1,85 @@
-
-// let items = document.getElementByClassname('item');
-// console.log(items);
-
-// let cart = [
-//     { name:name, price: price, },
-//     { name:name, price: price, },
-//     { name:name, price: price, },
-//     { name:name, price: price, },
-//     { name:name, price: price, },
-// ];
-
-
-// function addCart(name, price) {
-    
-//     // create item
-//     let item = {
-//         name: name,
-//         price: price,
-//     };
-
-//     // check if array empty
-//     if (cart.length != 0) {
-//         // search an item in an array
-//         let check = false;
-//         for (let cartItem in cart) {
-//             if (cart[cartItem],name === item.name) {
-
-//             }
-//         }
-//         // if check returns false,item was not found in the array
-//         if(!check){ cart.push(item) } 
-
-//         // else push to array
-//     } else {
-//         cart.push(item);
-//     }
-
-//     // get cart div 
-//     let div = document.getElementById('cart');
-//     // clear cart
-//     div.innerHTML = "";
-
-//     // show cart with updated array
-//     for (let value in cart) {
-
-//         // Create a <li> node
-//         let node = document.createElement("LI");
-//         // create a text node
-//         let textnode = document.createTextNode(cart[value].name);
-
-//         // Append the text to <li>
-//         node.appendChild(textnode);
-
-//         // Append <li> to <ul> with id="myList"
-//         div.appendChild(node);
-//     }
-
-//     }
-
-//     // STILL TO DO
-//     // remove an item from cart
-//     // write a function that calculates the total of the cart
-//     // add a quantity to cart items
-//     // be able to increase and decrease the quantity
-//     // REMEMBER the cart total must update as the quantity changes
-
-// var itemCount = 0;
-
-// $('.shop-button').click(function (){
-//   itemCount ++;
-//   $('#itemCount').html(itemCount).css('display', 'block');
-// }); 
-
-// $('.clear').click(function() {
-//   itemCount = 0;
-//   $('#itemCount').html('').css('display', 'none');
-//   $('#cartItems').html('');
-// }); 
-
-// document.getElementsByClassName('shop-button');
-
-// // Create a constructor function 
+$('img[data-enlargable]').addClass('img-enlargable').click(function(){
+    var src = $(this).attr('src');
+    $('<div>').css({
+        background: 'RGBA(0,0,0,.5) url('+src+') no-repeat center',
+        backgroundSize: 'contain',
+        width:'100%', height:'100%',
+        position:'fixed',
+        zIndex:'10000',
+        top:'0', left:'0',
+        cursor: 'zoom-out'
+    }).click(function(){
+        $(this).remove();
+    }).appendTo('body');
+});
 
 
-function Item (name,price,quantity) {
-    this.name = name;
-    this.price = price;
-    this.quantity = quantity;
-}
 
-Item.prototype.describe = function () {
-    let description = "He will get a salary of " + this.salary + "which the duration will only be for " + this.duration + "The laptop will be a " + this.laptop + " his job is to be a " +this.jobDescription + ".";
-    return description;
-}
+// Brown fur jacket
+// function Item(image,name,price,description,) {
+//     this.image = image;
+//     this.name = name;
+//     this.price = price;
+//     this.description = description;
+// }
 
-let candidate = new Intern("R3000 ", "3 months ", "Dell", "worker");
+// let product1 = new Item ('<img src="images/fur-jacket.jpeg" alt="">',"Brown fur jacket","R900.00"," Fur clothing is clothing made of furry animal hides. Fur is one of the oldest forms of clothing, and is thought to have been widely used as hominids first expanded outside Africa. Some view fur as luxurious and warm; however, others reject it due to moral concerns for animal rights.");
+
+// document.getElementById("image1").innerHTML = product1.image;
+// document.getElementById("text").innerHTML = product1.name;
+// document.getElementById("price").innerHTML = product1.price;
+// document.getElementById("description").innerHTML = product1.description;
+
+
+
+// // Blue fur coat
+// let product2 = new Item ('<img src="images/beautiful-dress-elegant-1375736.jpg">',"Blue fur Coat","R1400","The most popular kinds of fur in the 1960s (known as the luxury fur) were blond mink, silver striped fox and red fox. These were mainly bought by the rich. Those who could not afford this wore pelts of wolf, Persian lamb or muskrat.");
+
+// document.getElementById("image2").innerHTML = product2.image;
+// document.getElementById("text2").innerHTML = product2.name;
+// document.getElementById("price2").innerHTML = product2.price;
+// document.getElementById("description2").innerHTML = product2.description;
+
+// // Black Cosy Coat
+// let product3 = new Item ('<img src="images/blond-close-up-eyes-449977.jpg">',"Black Cosy Jacket","R850.00"," A leather jacket is a jacket-length coat that is usually worn on top of other apparel or item of clothing, and made from the tanned hide of various animals. The leather material is typically dyed black, or various shades of brown, but a wide range of colors is possible.");
+
+// document.getElementById("image3").innerHTML = product3.image;
+// document.getElementById("text3").innerHTML = product3.name;
+// document.getElementById("price3").innerHTML = product3.price;
+// document.getElementById("description3").innerHTML = product3.description;
+
+
+// // Black Cosy Coat
+// let product4 = new Item ('<img src="images/blur-boy-depth-of-field-1183266.jpg">',"Yellow top","R750.00","Hooded garments have been a documented part of men's and women's wear for centuries. The hooded sweatshirt was first produced in the United States starting in the 1930s.");
+
+// document.getElementById("image4").innerHTML = product4.image;
+// document.getElementById("text4").innerHTML = product4.name;
+// document.getElementById("price4").innerHTML = product4.price;
+// document.getElementById("description4").innerHTML = product4.description;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
