@@ -1,19 +1,3 @@
-// Lookbook images pop-up
-$('img[data-enlargable]').addClass('img-enlargable').click(function(){
-    var src = $(this).attr('src');
-    $('<div>').css({
-        background: 'RGBA(0,0,0,.5) url('+src+') no-repeat center',
-        backgroundSize: 'contain',
-        width:'100%', height:'100%',
-        position:'fixed',
-        zIndex:'10000',
-        top:'0', left:'0',
-        cursor: 'zoom-out'
-    }).click(function(){
-        $(this).remove();
-    }).appendTo('body');
-});
-
 
 // _______Products of the shop_______
 // __________________________________
@@ -29,11 +13,10 @@ function Item(image,name,price,description,) {
 
 let product1 = new Item ('<img src="images/fur-jacket.jpeg" alt="">',"Brown fur jacket","R900.00"," Fur clothing is clothing made of furry animal hides. Fur is one of the oldest forms of clothing, and is thought to have been widely used as hominids first expanded outside Africa. Some view fur as luxurious and warm; however, others reject it due to moral concerns for animal rights.");
 
-document.getElementById("image1").innerHTML = product1.image;
+document.getElementById("image").innerHTML = product1.image;
 document.getElementById("text").innerHTML = product1.name;
 document.getElementById("price").innerHTML = product1.price;
 document.getElementById("description").innerHTML = product1.description;
-
 
 
 // Blue fur coat
@@ -60,6 +43,21 @@ document.getElementById("image4").innerHTML = product4.image;
 document.getElementById("text4").innerHTML = product4.name;
 document.getElementById("price4").innerHTML = product4.price;
 document.getElementById("description4").innerHTML = product4.description;
+
+// var removeCartItemButtons = document.getElementsByClassName('remove-from-cart')
+// console.log(removeCartItemButtons )
+
+// for (var i = 0; i < removeCartItemButtons.length;) {
+//     var button = removeCartItemButtons[i]
+//     button.addEventListener('click', function() {
+//         console.log('clicked')
+//     })
+// }
+
+
+
+
+
 
 
 
