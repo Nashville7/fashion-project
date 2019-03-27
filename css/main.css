@@ -493,6 +493,8 @@ i {
   letter-spacing: 1.5px;
   text-align: left;
   color: #e5e5e5; }
+  .full-location h2 .fas, .full-location h2 .fa {
+    margin-right: 0.8rem; }
 .full-location p {
   height: 18px;
   font-family: 'Source Sans Pro';
@@ -1148,6 +1150,19 @@ textarea::placeholder {
   text-align: left;
   color: #666666; }
 
+.shop-section .lnr-heart {
+  padding-left: 360px;
+  width: 21px;
+  height: 18px;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #999999; }
+
 .image1 {
   width: 300px;
   height: 300px;
@@ -1155,7 +1170,7 @@ textarea::placeholder {
   margin-left: 174px;
   margin-bottom: 50px; }
 
-.shop-button {
+.add-to-cart {
   height: 44px;
   background-color: #ac907f;
   border: none;
@@ -1168,7 +1183,23 @@ textarea::placeholder {
   color: #ffffff;
   transition: all 0.9s; }
 
-.shop-button:hover {
+.add-to-cart:hover {
+  background-color: #ce9c7d; }
+
+.remove-from-cart {
+  height: 44px;
+  background-color: #ac907f;
+  border: none;
+  font-family: 'Source Sans Pro';
+  font-size: 15px;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #ffffff;
+  transition: all 0.9s; }
+
+.remove-from-cart:hover {
   background-color: #ce9c7d; }
 
 .well img {

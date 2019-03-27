@@ -78,11 +78,23 @@
 //   $('#cartItems').html('');
 // }); 
 
+// document.getElementsByClassName('shop-button');
+
+// // Create a constructor function 
 
 
+function Item (name,price,quantity) {
+    this.name = name;
+    this.price = price;
+    this.quantity = quantity;
+}
 
+Item.prototype.describe = function () {
+    let description = "He will get a salary of " + this.salary + "which the duration will only be for " + this.duration + "The laptop will be a " + this.laptop + " his job is to be a " +this.jobDescription + ".";
+    return description;
+}
 
-
+let candidate = new Intern("R3000 ", "3 months ", "Dell", "worker");
 
 
 
