@@ -55,12 +55,14 @@
   height: 32px;
   background-color: #a88d7b;
   border-radius: 0;
-  font-family: SourceSansPro;
+  font-family: 'Source Sans Pro';
   font-size: 15px;
   text-align: center;
   color: #ffffff;
+  border: none;
+  bottom: 2rem;
   position: relative;
-  bottom: 4rem;
+  bottom: 1rem !important;
   left: 31rem;
   transition: all 0.5s ease-in-out;
 }

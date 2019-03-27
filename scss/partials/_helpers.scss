@@ -1408,7 +1408,18 @@ textarea::placeholder {
     letter-spacing: normal;
     text-align: center;
     color: #666666;
+    padding: 0 15px;
   }
+
+   a {
+    color: #666666;
+    text-decoration: none;
+    transition: all 0.5s;
+   }
+
+   a:hover {
+    color: #4e4545;
+   }
 }
 
 // .shop-section {
@@ -1428,5 +1439,6 @@ textarea::placeholder {
 //   color: white;
 //   text-align: center;
 // }
+
 
 
