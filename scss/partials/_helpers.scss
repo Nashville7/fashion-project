@@ -55,6 +55,7 @@ i {
     color: #999999;
     white-space: nowrap;
   }
+
 //right side icons properties
 .icons {
     width: 297px;
@@ -72,7 +73,6 @@ i {
   }
 
 // navbar properties start
-  
 .navbar {
     margin: 0;
     padding: 0;
@@ -125,7 +125,6 @@ i {
   .search {
     width: 22px;
     height: 23px;
-    font-family: Linearicons-Free;
     font-size: 22px;
     font-weight: normal;
     font-style: normal;
@@ -237,7 +236,6 @@ i {
 .featured-product-img {
   width: 370px;
   height: 360px;
-  
 }
 
 .featured-product-img:hover {
@@ -361,7 +359,6 @@ i {
   animation: move 1s ease-in-out;
 }
 
-
 .new-collection-img {
   width: 570px;
   height: 373px;
@@ -373,6 +370,7 @@ i {
   opacity: 1;
   transition: box-shadow 0.2s ease-out;
 }
+
 // new collection men picture
 .men h5 {
   font-family: 'Source Sans Pro';
@@ -385,6 +383,7 @@ i {
   text-align: center;
   color: #a88d7b;
 }
+
 // new collection woman picture
 .woman h5 {
   font-family: 'Source Sans Pro';
@@ -397,7 +396,6 @@ i {
   text-align: center;
   color: #a88d7b;
 }
-
 
 .parallax {
   width: 100%;
@@ -421,6 +419,7 @@ i {
   }
   
 }
+
 .jackie {
   width: 530px;
   height: 37px;
@@ -470,7 +469,6 @@ i {
   height: 405px;
   background-color: #666666;
   object-fit: cover;
-  
 }
 
 .blogtext {
@@ -514,7 +512,6 @@ i {
     .fas, .fa {
       margin-right: 0.8rem;
     }
-  
 }
 
 p {
@@ -533,7 +530,6 @@ p {
 
 .full-offer p,
 .full-unisex p {
-
   height: 11px;
   font-family: 'Source Sans Pro';
   font-size: 15px;
@@ -550,7 +546,6 @@ p {
 .myheadings {
   width: 91px;
   height: 13px;
-  // font-family: 'Source Sans Pro';
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   font-weight: bold;
@@ -626,7 +621,6 @@ p {
 .icons-about {
   width: 297px;
   height: 15px;
-  font-family: FontAwesome;
   font-size: 15px;
   font-weight: normal;
   font-style: normal;
@@ -637,12 +631,10 @@ p {
   color: #999999;
   float: right
 }
-
 // end of top of the about page
 
 
 // navbar of the about page
-
 .navbar-about {
   background-color: #ffffff;
 }
@@ -675,10 +667,10 @@ p {
   transition-timing-function: linear;
   transition-duration: 1s;
  }
+
  .search-about {
   width: 19px;
   height: 19px;
-  font-family: FontAwesome;
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
@@ -688,10 +680,10 @@ p {
   text-align: left;
   color: #666666;
  }
+
  .shop-about {
   width: 19px;
   height: 19px;
-  font-family: FontAwesome;
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
@@ -710,12 +702,9 @@ p {
   // background-image: none;
 }
 
-
-
 //   heading and paragraph of header
 .fashion-heading-about  {
   h1 {
-  
     height: 35px;
     font-family: 'Source Sans Pro';
     font-size: 50px;
@@ -730,7 +719,7 @@ p {
   } 
     p {
 
-  // height: 251px;
+  
   font-family: 'SourceSansPro';
   font-size: 15px;
   font-weight: 600;
@@ -934,12 +923,9 @@ h4::before {
 
 
 // start of contact page
-
 .contact-container {
   height: 33vh;
- 
 }
-
 
 .the-adress {
   width: 390px;
@@ -1158,9 +1144,6 @@ textarea::placeholder {
 
 }
 
-
-
-
 // _______blog page_________
 
 .blog-page-container {
@@ -1193,9 +1176,6 @@ textarea::placeholder {
   color: #999999;
   }
 }
-
-
-
 
 .blog-img {
   width: 370px;
@@ -1307,8 +1287,6 @@ textarea::placeholder {
 }
 
 .shop-section h1:nth-child(1) {
-  // width: 200px;
-  // height: 23px;
   font-family: 'Source Sans Pro';
   font-size: 25px;
   font-weight: 600;
@@ -1421,8 +1399,6 @@ textarea::placeholder {
 
   li {
     display: inline;
-    width: 8px;
-    height: 10px;
     font-family: 'Source Sans Pro';
     font-size: 15px;
     font-weight: normal;

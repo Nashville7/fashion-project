@@ -179,7 +179,6 @@ i {
 .search {
   width: 22px;
   height: 23px;
-  font-family: Linearicons-Free;
   font-size: 22px;
   font-weight: normal;
   font-style: normal;
@@ -580,7 +579,6 @@ i {
 .icons-about {
   width: 297px;
   height: 15px;
-  font-family: FontAwesome;
   font-size: 15px;
   font-weight: normal;
   font-style: normal;
@@ -620,7 +618,6 @@ i {
 .search-about {
   width: 19px;
   height: 19px;
-  font-family: FontAwesome;
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
@@ -633,7 +630,6 @@ i {
 .shop-about {
   width: 19px;
   height: 19px;
-  font-family: FontAwesome;
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
@@ -1214,8 +1210,6 @@ textarea::placeholder {
   margin-right: 8rem; }
   .next-page li {
     display: inline;
-    width: 8px;
-    height: 10px;
     font-family: 'Source Sans Pro';
     font-size: 15px;
     font-weight: normal;
