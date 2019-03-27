@@ -13,15 +13,30 @@
     and (min-device-width: 320px) 
     and (max-device-width: 767px) {
 
-.fashion-heading  {
-        p {
-            width: 46vw !important;
-        }
+.ship-about {
+    font-size: 8px;
+}
 
-        h1 {
-            font-size: 29px;
-        }
-    
+
+.fashion-heading  {
+    p {
+        width: 46vw !important;
+    }
+
+    h1 {
+        font-size: 29px;
+    }   
+}
+.lookbook {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.fashion-heading-about h1 {
+    height: 3px;
+    font-family: 'Source Sans Pro';
+    font-size: 37px;
 }
 
 // ________start of featured product___
@@ -355,7 +370,8 @@ footer {
     margin-top: 437px;
 
     p {
-        margin-top: -7vh;
+        margin-top: -4vh;
+    
 
     }
 }

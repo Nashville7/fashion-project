@@ -1065,8 +1065,6 @@ h4::before {
 .my-form {
 width: 71.375rem;
 margin: auto;
-// margin-top: -1565px;
-
 }
 
 .username input {
@@ -1150,7 +1148,21 @@ textarea::placeholder {
   background-color: #ac907f;
   margin-top:39px; 
   margin-bottom: 100px;
+  border: none;
+  transition: all 0.9s;
+  font-family: 'Source Sans Pro';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #ffffff;
+}
 
+.btn:hover {
+  width: 165px;
 }
 
 // _______blog page_________

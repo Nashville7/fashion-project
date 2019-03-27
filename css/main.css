@@ -1002,7 +1002,21 @@ textarea::placeholder {
   height: 40px;
   background-color: #ac907f;
   margin-top: 39px;
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  border: none;
+  transition: all 0.9s;
+  font-family: 'Source Sans Pro';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #ffffff; }
+
+.btn:hover {
+  width: 165px; }
 
 .blog-page-container {
   height: 928px;
@@ -1407,10 +1421,23 @@ footer {
 /* Mobile Devices */
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .ship-about {
+    font-size: 8px; }
+
   .fashion-heading p {
     width: 46vw !important; }
   .fashion-heading h1 {
     font-size: 29px; }
+
+  .lookbook {
+    width: 100%;
+    display: block;
+    margin: auto; }
+
+  .fashion-heading-about h1 {
+    height: 3px;
+    font-family: 'Source Sans Pro';
+    font-size: 37px; }
 
   .featured-product {
     display: grid;
@@ -1665,7 +1692,7 @@ footer {
   footer {
     margin-top: 437px; }
     footer p {
-      margin-top: -7vh; } }
+      margin-top: -4vh; } }
 /* Responsive Design */
 /*Tablets*/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) {
