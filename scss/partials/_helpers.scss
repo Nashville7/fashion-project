@@ -1420,6 +1420,10 @@ textarea::placeholder {
    a:hover {
     color: #4e4545;
    }
+  //  shows on which page i am
+  a.active {
+    color: dodgerblue;
+  }
 }
 
 // .shop-section {
@@ -1441,4 +1445,7 @@ textarea::placeholder {
 // }
 
 
-
+hr {
+  width: 370px;
+  background-color: #ebebeb;
+}

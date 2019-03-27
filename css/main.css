@@ -1199,6 +1199,12 @@ textarea::placeholder {
     transition: all 0.5s; }
   .next-page a:hover {
     color: #4e4545; }
+  .next-page a.active {
+    color: dodgerblue; }
+
+hr {
+  width: 370px;
+  background-color: #ebebeb; }
 
 body {
   margin: 0;
