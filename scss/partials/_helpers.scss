@@ -60,7 +60,6 @@ i {
 .icons {
     width: 297px;
     height: 15px;
-    font-family: FontAwesome;
     font-size: 15px;
     font-weight: normal;
     font-style: normal;
@@ -985,10 +984,11 @@ h4::before {
 
   p {
    
-    height: 16px;
+    
     font-family: 'Source Sans Pro';
     font-size: 18px;
     font-weight: normal;
+    margin-bottom: 46px;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.39;
@@ -1038,6 +1038,15 @@ h4::before {
 .shift {
   margin-top: 40px;
 }
+
+
+.shift2 {
+  margin-top: 52px;
+  
+}
+
+
+
 
 .border {
   width: 390px;
@@ -1113,7 +1122,7 @@ textarea::placeholder {
 }
 
 .email input   {
-  width: 525px;
+  width: 570px;
   height: 50px;
   margin-top: 60px;
   border: solid 1px #e6e6e6;
@@ -1125,7 +1134,7 @@ textarea::placeholder {
 }
 
 .subject input   {
-  width: 525px;
+  width: 570px;
   position: absolute;
   left: 707px;
   height: 50px;
