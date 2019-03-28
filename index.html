@@ -16,7 +16,7 @@
     <title>Home</title>
 </head>
 
-<body id="Back-top">
+<body>
     <header>
         <!-- top -->
         <div id="top">
@@ -163,9 +163,30 @@
         <footer>
             <p>Copyright © 2019 Designed by nate_nonpareil.And Created by Nashville James All rights reserved.</p>
             <div class="up-arrow">
-                <a href="#Back-top"><i class="fas fa-arrow-circle-up"></i></a> 
+                <a href="#Back-top" id="Back-top"><i class="fas fa-arrow-circle-up"></i></a> 
             </div>
         </footer>
     </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+            $(document).ready(function(){
+            
+                // Check to see if the window is top if not then display button
+                $(window).scroll(function(){
+                    if ($(this).scrollTop() > 100) {
+                        $('#Back-top').fadeIn();
+                    } else {
+                        $('#Back-top').fadeOut();
+                    }
+                });
+            
+                //Click event to scroll to top
+                $('#Back-top').click(function(){
+                    $('html, body').animate({scrollTop : 100},'slow');
+                    return false;
+                });
+            
+            });
+            </script>
 </body>
 </html>

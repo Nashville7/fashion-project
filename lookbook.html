@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"> 
     <!-- google font dosis -->
@@ -13,6 +14,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- favicon -->
     <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32"/>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
     <title>lookbook</title>
 </head>
 <body>
@@ -53,10 +58,14 @@
         <div class="lookbook-container">
             <div class="lookbook">
                 <!-- images -->
-                <div><img data-enlargable width="100" style="cursor:zoom-in"src="lookbook/actor-actress-adult-1126822.jpg"></div>
-                <div><img data-enlargable width="100"  src="lookbook/adolescent-adult-blonde-1559672.jpg" class="fishie" alt=""></div>
-                <div class="happy"><img data-enlargable width="100"src="lookbook/adult-background-beard-941693.jpg"></div>
-                <div><img data-enlargable width="100"  src="lookbook/architecture-beautiful-body-914668.jpg" alt=""></div>
+                <div><a href="lookbook/actor-actress-adult-1126822.jpg" data-lightbox="mygallery"><img src="lookbook/actor-actress-adult-1126822.jpg"></a></div>
+
+                <div><a href="lookbook/adolescent-adult-blonde-1559672.jpg" data-lightbox="mygallery"><img data-enlargable width="100"  src="lookbook/adolescent-adult-blonde-1559672.jpg" class="fishie" alt=""></a></div>
+
+                <div class="happy"><a href="lookbook/adult-background-beard-941693.jpg" data-lightbox="mygallery"><img data-enlargable width="100"src="lookbook/adult-background-beard-941693.jpg"></a></div>
+
+                <div><a href="lookbook/architecture-beautiful-body-914668.jpg" data-lightbox="mygallery"><img data-enlargable width="100"  src="lookbook/architecture-beautiful-body-914668.jpg" alt=""></a></div>
+
                 <div><img data-enlargable width="100"  src="lookbook/art-boy-cap-1456501.jpg" class="canoe" alt=""></div>
                 <div class="glasses"><img data-enlargable width="100"  src="lookbook/camera-fashion-man-46219.jpg" alt=""></div>
                 <div><img data-enlargable width="100"  src="lookbook/adolescent-adult-bag-1056574.jpg"  alt=""></div>
@@ -110,8 +119,10 @@
                 <a href="#Back-top" id="Back-top"><i class="fas fa-arrow-circle-up"></i></a> 
             </div>
         </footer>
+                <!-- <script src="js/lookbook.js"></script> -->
+                <script src="js/lightbox-plus-jquery.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script src="js/lookbook.js"></script>
+
         <script>
             $(document).ready(function(){
             

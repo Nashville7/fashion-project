@@ -1288,8 +1288,7 @@ hr {
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
-  scroll-behavior: smooth; }
+  overflow-x: hidden; }
 
 header {
   text-align: center;

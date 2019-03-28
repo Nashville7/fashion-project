@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <title>Shop</title>
 </head>
-<body id="Back-top">
+<body>
     <header id="about">
         <div id="top-about">
             <div>
@@ -153,10 +153,31 @@
     <footer>
         <p>Copyright © 2019 Designed by nate_nonpareil.And Created by Nashville James All rights reserved.</p>
         <div class="up-arrow">
-            <a href="#Back-top"><i class="fas fa-arrow-circle-up"></i></a> 
+            <a href="#Back-top"  id="Back-top"><i class="fas fa-arrow-circle-up"></i></a> 
         </div>
     </footer>
     </div>
-    <script src="js/main.js"></script>
+    <script src="js/shop.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+            $(document).ready(function(){
+            
+                // Check to see if the window is top if not then display button
+                $(window).scroll(function(){
+                    if ($(this).scrollTop() > 80) {
+                        $('#Back-top').fadeIn(500);
+                    } else {
+                        $('#Back-top').fadeOut(500);
+                    }
+                });
+            
+                //Click event to scroll to top
+                $('#Back-top').click(function(){
+                    $('html, body').animate({scrollTop : 0});
+                    return false;
+                });
+            
+            });
+            </script>
 </body>
 </html>
