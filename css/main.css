@@ -211,7 +211,7 @@ i {
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: normal;
+  letter-spacing: normal;
   letter-spacing: 1.1px;
   text-align: left;
   color: #ffffff; }
@@ -224,7 +224,7 @@ i {
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: normal;
+  letter-spacing: normal;
   letter-spacing: 1.1px;
   text-align: left;
   color: #ffffff; }
@@ -242,8 +242,8 @@ i {
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 0.96;
   letter-spacing: normal;
+  line-height: 0.96;
   text-align: center;
   color: #ffffff;
   text-align: center; }
@@ -255,8 +255,8 @@ i {
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.67;
   letter-spacing: normal;
+  line-height: 1.67;
   text-align: center;
   color: #e6e6e6;
   max-width: 800vw;
@@ -264,7 +264,7 @@ i {
 
 #featured-product-container {
   height: 704px;
-  background-color: var(--white);
+  background-color: #f5f5f5;
   width: 100%; }
 
 .main-title {
@@ -305,68 +305,67 @@ i {
 
 .blue-jacket h3 {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 20px;
   font-weight: 600;
+  text-align: center;
+  font-size: 20px;
   font-style: normal;
   font-stretch: normal;
   line-height: 2.4;
   letter-spacing: normal;
-  text-align: center;
   color: #333333; }
 .blue-jacket p {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
+  text-align: center;
   font-style: normal;
   font-stretch: normal;
   line-height: 3.2;
   letter-spacing: normal;
   font-size: 15px;
   font-weight: 600;
-  text-align: center;
   color: #999999; }
 
 .black-cap h3 {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 20px;
   font-weight: 600;
+  text-align: center;
+  font-size: 20px;
   font-style: normal;
   font-stretch: normal;
   line-height: 2.4;
   letter-spacing: normal;
-  text-align: center;
   color: #333333;
   margin-top: 0; }
 .black-cap p {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
+  text-align: center;
   font-style: normal;
   font-stretch: normal;
   line-height: 3.2;
   letter-spacing: normal;
   font-size: 15px;
-  font-weight: 600;
-  text-align: center;
   color: #999999; }
 
 .blue-jean-jacket h3 {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 20px;
   font-weight: 600;
+  text-align: center;
+  font-size: 20px;
   font-style: normal;
   font-stretch: normal;
   line-height: 2.4;
   letter-spacing: normal;
-  text-align: center;
   color: #333333; }
 .blue-jean-jacket p {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
+  text-align: center;
   font-style: normal;
   font-stretch: normal;
   line-height: 3.2;
   letter-spacing: normal;
   font-size: 15px;
-  font-weight: 600;
   text-align: center;
   color: #999999; }
 
@@ -543,8 +542,8 @@ i {
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.6;
   letter-spacing: normal;
+  line-height: 1.6;
   text-align: left;
   color: #999999; }
 
@@ -583,8 +582,8 @@ i {
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: normal;
   letter-spacing: normal;
+  line-height: normal;
   text-align: center;
   color: #999999; }
 
@@ -611,8 +610,8 @@ i {
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: normal;
   letter-spacing: normal;
+  line-height: normal;
   text-align: center;
   color: #999999;
   float: right; }
@@ -720,8 +719,8 @@ i {
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 0.67;
     letter-spacing: normal;
+    line-height: 0.67;
     text-align: center;
     color: #333333;
     position: relative; }
@@ -747,8 +746,8 @@ i {
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.33;
   letter-spacing: normal;
+  line-height: 1.33;
   text-align: center;
   color: #333333;
   margin: 0px auto 92px;
@@ -888,8 +887,8 @@ i {
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.39;
     letter-spacing: normal;
+    line-height: 1.39;
     text-align: center;
     color: #666666; }
 
@@ -903,11 +902,11 @@ i {
     font-family: 'Source Sans Pro';
     font-size: 18px;
     font-weight: normal;
-    margin-bottom: 46px;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.39;
     letter-spacing: normal;
+    margin-bottom: 46px;
+    line-height: 1.39;
     text-align: center;
     color: #666666; }
 
@@ -935,8 +934,8 @@ i {
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.39;
     letter-spacing: normal;
+    line-height: 1.39;
     text-align: center;
     color: #666666; }
 
@@ -1284,6 +1283,17 @@ textarea::placeholder {
 hr {
   width: 370px;
   background-color: #ebebeb; }
+
+.count {
+  position: absolute;
+  display: none;
+  top: 78px;
+  width: 20px;
+  right: 222px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ac907f;
+  color: white; }
 
 body {
   margin: 0;
