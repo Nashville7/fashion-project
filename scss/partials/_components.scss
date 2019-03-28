@@ -87,6 +87,26 @@ width: 138px;
 }
 }
 
+#Back-top{
+    width:100px; 
+    height:130px;
+    padding:10px; 
+    text-align:center; 
+    // background: whiteSmoke;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position:fixed;
+    top: 580px;
+    right: -26px;
+    display:none;
+    z-index: 1000;
+    // background: url('arrow_up.png') no-repeat 0px 20px;
+}
+#Back-top:hover{
+    text-decoration:none;
+}
+
 
 //  arrow up properties & values
 .up-arrow {
@@ -99,7 +119,7 @@ width: 138px;
   
    .fa-arrow-circle-up{
     font-size: 35px;
-    color: #2d2827;
+    color: #b84a35;
    }
   
   

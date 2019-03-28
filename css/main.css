@@ -76,6 +76,23 @@
     text-align: left;
     color: #a88d7b; }
 
+#Back-top {
+  width: 100px;
+  height: 130px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+  position: fixed;
+  top: 580px;
+  right: -26px;
+  display: none;
+  z-index: 1000; }
+
+#Back-top:hover {
+  text-decoration: none; }
+
 .up-arrow {
   right: 20px;
   padding-left: 43rem;
@@ -83,7 +100,7 @@
   position: absolute; }
   .up-arrow .fa-arrow-circle-up {
     font-size: 35px;
-    color: #2d2827; }
+    color: #b84a35; }
 
 html {
   scroll-behavior: smooth; }
