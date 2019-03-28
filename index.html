@@ -169,24 +169,24 @@
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script>
-            $(document).ready(function(){
-            
-                // Check to see if the window is top if not then display button
-                $(window).scroll(function(){
-                    if ($(this).scrollTop() > 100) {
-                        $('#Back-top').fadeIn();
-                    } else {
-                        $('#Back-top').fadeOut();
-                    }
-                });
-            
-                //Click event to scroll to top
-                $('#Back-top').click(function(){
-                    $('html, body').animate({scrollTop : 100},'slow');
-                    return false;
-                });
-            
+        $(document).ready(function(){
+        
+            // Check to see if the window is top if not then display button
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 100) {
+                    $('#Back-top').fadeIn();
+                } else {
+                    $('#Back-top').fadeOut();
+                }
             });
-            </script>
+        
+            //Click event to scroll to top
+            $('#Back-top').click(function(){
+                $('html, body').animate({scrollTop : 0},'fast');
+                return false;
+            });
+        
+        });
+    </script>
 </body>
 </html>

@@ -43,3 +43,6 @@ document.getElementById("image4").innerHTML = product4.image;
 document.getElementById("text4").innerHTML = product4.name;
 document.getElementById("price4").innerHTML = product4.price;
 document.getElementById("description4").innerHTML = product4.description;
+
+
+

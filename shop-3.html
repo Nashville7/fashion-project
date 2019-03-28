@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <title>Shop</title>
 </head>
-<body id="Back-top">
+<body>
     <header id="about">
         <div id="top-about">
             <div>
@@ -64,47 +64,45 @@
     </div>
     <div class="container">
         <section class="well">
-        <div class="image1"><img src="images/chair-coffee-cup-eyewear-1726486.jpg">
+        <div class="image1" id="image9">
         </div>
         <article class="shop-section">
-            <h1>Brown fur Jacket</h1>
-            <p>R900.00</p>
-            <p>
-                Fur clothing is clothing made of furry animal hides. Fur is one of the oldest forms of clothing, and is thought to have been widely used as hominids first expanded outside Africa. Some view fur as luxurious and warm; however, others reject it due to moral concerns for animal rights. </p>
+            <h1 id="text9"></h1>
+            <p id="price9"></p>
+            <p id="description9"></p>
             <p>
                 <button class="add-to-cart"><i class="fas fa-shopping-cart"></i>ADD TO CART</button>
                 <button class="remove-from-cart"><i class="fas fa-shopping-cart"></i>REMOVE FROM CART</button>
             </p>
         </article>
-        <div class="image1"><img src="images/pexels-photo-1770193.jpeg">
+        <div class="image1" id="image10">
             </div>
             <article class="shop-section">
-                <h1>Blue fur Coat</h1>
-                <p>R1400</p>
-                <p> The most popular kinds of fur in the 1960s (known as the luxury fur) were blond mink, silver striped fox and red fox. These were mainly bought by the rich. Those who could not afford this wore pelts of wolf, Persian lamb or muskrat.</p>
+                <h1 id="text10"></h1>
+                <p id="price10"></p>
+                <p id="description10"></p>
                 <p>
                     <button class="add-to-cart"><i class="fas fa-shopping-cart"></i>ADD TO CART</button>
                     <button class="remove-from-cart"><i class="fas fa-shopping-cart"></i>REMOVE FROM CART</button>
                 </p>
             </article>
-            <div class="image1"><img src="images/bar-boy-casual-434708.jpg">
+            <div class="image1" id="image11">
                 </div>
                 <article class="shop-section">
-                    <h1>Black Cosy Jacket<span class="lnr lnr-heart"></span></h1>
-                    <p>R850.00</p>
-                    <p>
-                        A leather jacket is a jacket-length coat that is usually worn on top of other apparel or item of clothing, and made from the tanned hide of various animals. The leather material is typically dyed black, or various shades of brown, but a wide range of colors is possible. </p>
+                    <h1 id="text11"><span class="lnr lnr-heart"></span></h1>
+                    <p id="price11"></p>
+                    <p id="description11"></p>
                     <p>
                         <button class="add-to-cart"><i class="fas fa-shopping-cart"></i>ADD TO CART</button>
                         <button class="remove-from-cart"><i class="fas fa-shopping-cart"></i>REMOVE FROM CART</button>
                     </p>
             </article>
-            <div class="image1"><img src="images/adult-beanie-beard-1078851.jpg">
+            <div class="image1" id="image12">
             </div>
             <article class="shop-section">
-                <h1>Blue Yellow top<span class="lnr lnr-heart"></span></h1>
-                <p>R750.00</p>
-                <p>
+                <h1 id="text12">Blue Yellow top<span class="lnr lnr-heart"></span></h1>
+                <p id="price12">R750.00</p>
+                <p id="description12">
                     Hooded garments have been a documented part of men's and women's wear for centuries. The hooded sweatshirt was first produced in the United States starting in the 1930s.</p>
                 <p>
                     <button class="add-to-cart"><i class="fas fa-shopping-cart"></i>ADD TO CART</button>
@@ -159,10 +157,32 @@
     <footer>
         <p>Copyright © 2019 Designed by nate_nonpareil.And Created by Nashville James All rights reserved.</p>
         <div class="up-arrow">
-            <a href="#Back-top"><i class="fas fa-arrow-circle-up"></i></a> 
+            <a href="#Back-top" id="Back-top"><i class="fas fa-arrow-circle-up"></i></a> 
         </div>
     </footer>
     </div>
-    <script src="js/main.js"></script>
+    <script src="js/shop-3.js"></script>
+    <!-- For smooth scrolling -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+            $(document).ready(function(){
+            
+                // Check to see if the window is top if not then display button
+                $(window).scroll(function(){
+                    if ($(this).scrollTop() > 80) {
+                        $('#Back-top').fadeIn(500);
+                    } else {
+                        $('#Back-top').fadeOut(500);
+                    }
+                });
+            
+                //Click event to scroll to top
+                $('#Back-top').click(function(){
+                    $('html, body').animate({scrollTop : 0});
+                    return false;
+                });
+            
+            });
+    </script>
 </body>
 </html>
