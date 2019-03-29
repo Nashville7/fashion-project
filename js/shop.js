@@ -44,21 +44,3 @@ document.getElementById("text4").innerHTML = product4.name;
 document.getElementById("price4").innerHTML = product4.price;
 document.getElementById("description4").innerHTML = product4.description;
 
-// let cart = [];
-
-// let item = function(name,price,count) {
-//     this.name = name
-//     this.price = price
-//     this.count = count
-// };
-
-// function addItemToCArt(name,price,count) {
-//     let item = new Item(name,price,count);
-//     cart.push(item);
-// }
-//     addItemToCArt("Brown fur jacket","R900.00", 1);
-
-//     console.log(cart);
-
-
-

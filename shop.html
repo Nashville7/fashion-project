@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="shopping-page">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +15,8 @@
     <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32"/>
     <!-- Linear icons -->
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     
     <title>Shop</title>
 </head>
@@ -44,7 +46,8 @@
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li class="lookbook"><a href="lookbook.html">lookbook</a></li>
-                <span class="count">0</span>
+                <!-- <span class="count">0</span> -->
+                <span class="glyphicon glyphicon-shopping-cart my-cart-icon"><span class="badge badge-notify my-cart-badge"></span></span>
                 <li class="shop-about"><i class="fas fa-shopping-cart"></i></li>
                 <li class="search-about"><i class="fas fa-search"></i></li>
             </ul>  
@@ -72,8 +75,8 @@
             <p id="price"></p>
             <p id="description"></p>
             <p>
-                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i>ADD TO CART</button>
-                <button class="remove-from-cart"><i class="fas fa-shopping-cart"></i>REMOVE FROM CART</button>
+                <button class="add-to-cart btn my-cart-btn" data-id="1" data-name="product 1" data-summary="summary 1" data-price="10" data-quantity="1" data-image="images/img_1.png"><i class="fas fa-shopping-cart"></i>ADD TO CART</button>
+                <!-- <button class="remove-from-cart"><i class="fas fa-shopping-cart"></i>REMOVE FROM CART</button> -->
             </p>
         </article>
         
@@ -83,8 +86,8 @@
                 <p id="price2"></p>
                 <p id="description2"></p>
                 <p>
-                    <button class="add-to-cart"><i class="fas fa-shopping-cart"></i>ADD TO CART</button>
-                    <button class="remove-from-cart"><i class="fas fa-shopping-cart"></i>REMOVE FROM CART</button>
+                    <button class="add-to-cart btn my-cart-btn" data-id="1" data-name="product 1" data-summary="summary 1" data-price="10" data-quantity="1" data-image="images/img_1.png"><i class="fas fa-shopping-cart"></i>ADD TO CART</button>
+                    <!-- <button class="remove-from-cart"><i class="fas fa-shopping-cart"></i>REMOVE FROM CART</button> -->
                 </p>
             </article>
             <div class="image1" id="image3"></div>
@@ -93,8 +96,8 @@
                     <p id="price3"></p>
                     <p id="description3"></p>
                     <p>
-                        <button class="add-to-cart"><i class="fas fa-shopping-cart"></i>ADD TO CART</button>
-                        <button class="remove-from-cart"><i class="fas fa-shopping-cart"></i>REMOVE FROM CART</button>
+                        <button class="add-to-cart btn my-cart-btn" data-id="1" data-name="product 1" data-summary="summary 1" data-price="10" data-quantity="1" data-image="images/img_1.png"><i class="fas fa-shopping-cart"></i>ADD TO CART</button>
+                        <!-- <button class="remove-from-cart"><i class="fas fa-shopping-cart"></i>REMOVE FROM CART</button> -->
                     </p>
             </article>
             <div class="image1" id="image4"></div>
@@ -103,8 +106,8 @@
                 <p id="price4"></p>
                 <p id="description4"></p>
                 <p>
-                    <button class="add-to-cart"><i class="fas fa-shopping-cart"></i>ADD TO CART</button>
-                    <button class="remove-from-cart"><i class="fas fa-shopping-cart"></i>REMOVE FROM CART</button>
+                    <button class="add-to-cart btn my-cart-btn" data-id="1" data-name="product 1" data-summary="summary 1" data-price="10" data-quantity="1" data-image="images/img_1.png"><i class="fas fa-shopping-cart"></i>ADD TO CART</button>
+                    <!-- <button class="remove-from-cart"><i class="fas fa-shopping-cart"></i>REMOVE FROM CART</button> -->
                 </p>
             </article>
     </section>
@@ -182,5 +185,10 @@
             
             });
     </script>
+      <script src="js/jquery-2.2.3.min.js"></script>
+      <script type='text/javascript' src="js/bootstrap.min.js"></script>
+      <script type='text/javascript' src="js/jquery.mycart.js"></script>
+      <script type="text/javascript"></script>
+      <script src="js/cart.js"></script>
 </body>
 </html>

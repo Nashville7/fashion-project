@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 // Topnav
 #top {
     color: #ffffff;
@@ -14,6 +15,7 @@ html {
 body {
   margin: 0;
 }
+
 // En and Zar properties
 #top span {
     padding: 5px;
@@ -1433,3 +1435,9 @@ hr {
   // text-align: center;
 
 }
+
+// shop page fix
+.shopping-page {
+  font-size: 15px !important;
+}
+
