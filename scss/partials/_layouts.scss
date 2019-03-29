@@ -12,7 +12,11 @@
     margin: auto;   
     width: 71.375rem;
     grid-gap: 1rem;
-    
+        div {
+            overflow: hidden;
+            height: 360px;
+            width: 370px;
+        }
 }
 
 // New collection grid
@@ -23,6 +27,11 @@
     padding-top: 92px;
     width: 71.375rem;
     grid-gap: 1rem;
+        div {
+            overflow: hidden;
+            width: 570px;
+            height: 373px;
+        }
 }
 
 .parallax {
@@ -37,6 +46,7 @@
     grid-template-columns: repeat(2, 1fr);
     width: 71.375rem;
     margin: auto;
+        
 }
 
 

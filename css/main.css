@@ -294,14 +294,15 @@ i {
   to {
     width: 50px; } }
 .featured-product-img {
-  width: 370px;
-  height: 360px; }
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-in-out; }
 
-.featured-product-img:hover {
-  color: white;
-  box-shadow: 7px 6px 7px black, -4px -3px 9px black;
-  opacity: 1;
-  transition: box-shadow 0.2s ease-out; }
+.featured-product div:hover img {
+  transform: scale(1.2); }
+
+.featured-product div:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589); }
 
 .blue-jacket h3 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -394,14 +395,15 @@ i {
   animation: move 1s ease-in-out; }
 
 .new-collection-img {
-  width: 570px;
-  height: 373px; }
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-in-out; }
 
-.new-collection-img:hover {
-  color: white;
-  box-shadow: 7px 6px 7px black, -4px -3px 9px black;
-  opacity: 1;
-  transition: box-shadow 0.2s ease-out; }
+.new-collection div:hover img {
+  transform: scale(1.2); }
+
+.new-collection div:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589); }
 
 .men h5 {
   font-family: 'Source Sans Pro';
@@ -463,6 +465,17 @@ i {
 #myblog-container {
   height: 704px;
   width: 100%; }
+
+.new-collection-img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-in-out; }
+
+.new-collection div:hover img {
+  transform: scale(1.2); }
+
+.new-collection div:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589); }
 
 .blog-name {
   text-transform: uppercase;
@@ -1339,6 +1352,10 @@ footer {
   margin: auto;
   width: 71.375rem;
   grid-gap: 1rem; }
+  .featured-product div {
+    overflow: hidden;
+    height: 360px;
+    width: 370px; }
 
 .new-collection {
   display: grid;
@@ -1347,6 +1364,10 @@ footer {
   padding-top: 92px;
   width: 71.375rem;
   grid-gap: 1rem; }
+  .new-collection div {
+    overflow: hidden;
+    width: 570px;
+    height: 373px; }
 
 .parallax {
   display: grid;
