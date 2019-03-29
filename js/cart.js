@@ -14,7 +14,7 @@ $(function () {
     }
 
     $('.my-cart-btn').myCart({
-      currencySymbol: '$',
+      currencySymbol: 'R',
       classCartIcon: 'my-cart-icon',
       classCartBadge: 'my-cart-badge',
       classProductQuantity: 'my-product-quantity',
@@ -24,9 +24,10 @@ $(function () {
       showCheckoutModal: true,
       numberOfDecimals: 2,
       cartItems: [
-        {id: 1, name: 'product 1', summary: 'summary 1', price: 10, quantity: 1, image: 'images/img_1.png'},
-        {id: 2, name: 'product 2', summary: 'summary 2', price: 20, quantity: 2, image: 'images/img_2.png'},
-        {id: 3, name: 'product 3', summary: 'summary 3', price: 30, quantity: 1, image: 'images/img_3.png'}
+        // {id: 1, name: 'Brown fur jacket', summary: 'summary 1', price: 10, quantity: 0, image: 'images/fur-jacket.jpeg'},
+        // {id: 2, name: '', summary: 'summary 2', price: 20, quantity: 0, image: 'images/beautiful-dress-elegant-1375736.jpg'},
+        // {id: 3, name: 'product 3', summary: 'summary 3', price: 30, quantity: 0, image: 'images/img_3.png'},
+        // {id: 3, name: 'product 3', summary: 'summary 3', price: 30, quantity: 0, image: 'images/img_3.png'}
       ],
       clickOnAddToCart: function($addTocart){
         goToCartIcon($addTocart);

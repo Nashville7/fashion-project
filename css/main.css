@@ -1038,7 +1038,7 @@ textarea::placeholder {
   background-color: #ffffff;
   margin-bottom: 30px; }
 
-.btn {
+.button-email {
   width: 155px;
   height: 40px;
   background-color: #ac907f;
@@ -1056,7 +1056,7 @@ textarea::placeholder {
   text-align: center;
   color: #ffffff; }
 
-.btn:hover {
+.button-email:hover {
   width: 165px; }
 
 .blog-page-container {
