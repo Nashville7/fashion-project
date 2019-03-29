@@ -46,6 +46,11 @@
     grid-template-columns: repeat(2, 1fr);
     width: 71.375rem;
     margin: auto;
+    div {
+        overflow: hidden;
+        width: 585px;
+        height: 405px;
+    }
         
 }
 
@@ -89,6 +94,11 @@
     width: 71.375rem;
     margin: auto;
     margin-top: 60px;
+    div {
+        overflow: hidden;
+        width: 600px;
+        height: 490px;
+    }
 }
 
 .meet-the-team {
@@ -97,6 +107,7 @@
     margin: auto;   
     width: 71.375rem;
     grid-gap: 1rem;
+    
     
 }
 

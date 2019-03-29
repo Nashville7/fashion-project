@@ -9,7 +9,11 @@
   color: white;
   font-size: 15px;
   outline: none;
-  border: none; }
+  border: none;
+  transition: all 0.2s ease-in-out; }
+
+.lookbook-button:hover {
+  width: 157px; }
 
 .down-arrow {
   position: absolute;
@@ -466,6 +470,14 @@ i {
   height: 704px;
   width: 100%; }
 
+.myblog img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-in-out; }
+
+.myblog div:hover img {
+  transform: scale(1.2); }
+
 .new-collection-img {
   width: 100%;
   height: 100%;
@@ -713,10 +725,14 @@ i {
   width: 100%; }
 
 .who-we-are-img {
-  width: 600px;
-  height: 490px;
+  width: 100%;
+  height: 100%;
   background-color: #666666;
-  object-fit: cover; }
+  object-fit: cover;
+  transition: all 0.5s ease-in-out; }
+
+.who-we-are div:hover img {
+  transform: scale(1.2); }
 
 .who-we-are-text {
   width: 529px;
@@ -1297,17 +1313,6 @@ hr {
   width: 370px;
   background-color: #ebebeb; }
 
-.count {
-  position: absolute;
-  display: none;
-  top: 78px;
-  width: 20px;
-  right: 222px;
-  height: 20px;
-  border-radius: 50%;
-  background: #ac907f;
-  color: white; }
-
 .shopping-page {
   font-size: 15px !important; }
 
@@ -1382,6 +1387,10 @@ footer {
   grid-template-columns: repeat(2, 1fr);
   width: 71.375rem;
   margin: auto; }
+  .myblog div {
+    overflow: hidden;
+    width: 585px;
+    height: 405px; }
 
 .info {
   display: grid;
@@ -1412,6 +1421,10 @@ footer {
   width: 71.375rem;
   margin: auto;
   margin-top: 60px; }
+  .who-we-are div {
+    overflow: hidden;
+    width: 600px;
+    height: 490px; }
 
 .meet-the-team {
   display: grid;

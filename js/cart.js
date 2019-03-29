@@ -43,10 +43,6 @@ $(function () {
         alert(checkoutString)
         console.log("checking out", products, totalPrice, totalQuantity);
       },
-      getDiscountPrice: function(products, totalPrice, totalQuantity) {
-        console.log("calculating discount", products, totalPrice, totalQuantity);
-        return totalPrice * 0.5;
-      }
     });
 
     $("#addNewProduct").click(function(event) {
