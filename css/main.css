@@ -719,6 +719,9 @@ i {
   text-align: center;
   color: #cccccc;
   margin-top: 52px; }
+.fashion-heading-about a {
+  color: #ffffff;
+  text-decoration: none; }
 
 #who-we-are-container {
   height: 704px;
@@ -1153,8 +1156,8 @@ textarea::placeholder {
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.4;
   letter-spacing: normal;
+  line-height: 1.4;
   text-align: center;
   color: #666666; }
 
@@ -1213,10 +1216,10 @@ textarea::placeholder {
   height: 64px;
   font-family: 'Source Sans Pro';
   font-size: 15px;
+  line-height: 1.67;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.67;
   letter-spacing: normal;
   text-align: left;
   color: #666666; }
@@ -1229,8 +1232,8 @@ textarea::placeholder {
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 2.4;
   letter-spacing: normal;
+  line-height: 2.4;
   text-align: center;
   color: #999999; }
 
@@ -1295,8 +1298,8 @@ textarea::placeholder {
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 2;
     letter-spacing: normal;
+    line-height: 2;
     text-align: center;
     color: #666666;
     padding: 0 15px; }

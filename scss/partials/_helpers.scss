@@ -719,18 +719,20 @@ p {
     margin-top: 109px;
   } 
     p {
-
-  
-  font-family: 'SourceSansPro';
-  font-size: 15px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.4;
-  letter-spacing: normal;
-  text-align: center;
-  color: #cccccc;
-  margin-top: 52px;
+    font-family: 'SourceSansPro';
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #cccccc;
+    margin-top: 52px;
+    }
+    a {
+      color: #ffffff;
+      text-decoration: none;
     }
 }
 
@@ -1239,11 +1241,8 @@ textarea::placeholder {
   .blog {
     font-family: 'Source Sans Pro';
     font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
+    @include sizing;
     line-height: 1.4;
-    letter-spacing: normal;
     text-align: center;
     color: #666666;
   }
@@ -1319,11 +1318,8 @@ textarea::placeholder {
   height: 64px;
   font-family: 'Source Sans Pro';
   font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 1.67;
-  letter-spacing: normal;
+  @include sizing;
   text-align: left;
   color: #666666;
 }
@@ -1333,11 +1329,8 @@ textarea::placeholder {
   width: 21px;
   height: 18px;
   font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
+  @include sizing;
   line-height: 2.4;
-  letter-spacing: normal;
   text-align: center;
   color: #999999;
 }
@@ -1411,11 +1404,8 @@ textarea::placeholder {
     display: inline;
     font-family: 'Source Sans Pro';
     font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
+    @include sizing;
     line-height: 2;
-    letter-spacing: normal;
     text-align: center;
     color: #666666;
     padding: 0 15px;
