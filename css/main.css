@@ -89,7 +89,7 @@
   color: #444;
   text-decoration: none;
   position: fixed;
-  top: 580px;
+  top: 540px;
   right: -26px;
   display: none;
   z-index: 1000; }
@@ -1482,7 +1482,7 @@ footer {
 .messages {
   grid-area: message; }
 
-.btn {
+.button-email {
   grid-area: button; }
 
 .lookbook {
@@ -1596,8 +1596,8 @@ footer {
       font-size: 21px; }
 
   .featured-product-img {
-    width: 265px;
-    height: 240px; }
+    width: 370px;
+    height: 360px; }
 
   .new {
     font-family: 'Source Sans Pro', sans-serif;
@@ -1703,6 +1703,10 @@ footer {
     font-size: 21px;
     text-align: center;
     width: 92vw; }
+
+  .myblog img {
+    max-width: 100vw;
+    height: 0; }
 
   .blogtext {
     font-family: 'Source Sans Pro', sans-serif;

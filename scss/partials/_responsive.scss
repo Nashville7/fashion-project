@@ -133,8 +133,8 @@
 }
 
 .featured-product-img {
-    width: 265px;
-    height: 240px;
+    width: 370px;
+    height: 360px;
 }
 
 // new sign on photo
@@ -270,6 +270,11 @@
     text-align: center;
     width: 92vw;
     
+}
+
+.myblog img {
+    max-width: 100vw;
+    height: 0;
 }
 
 .blogtext {

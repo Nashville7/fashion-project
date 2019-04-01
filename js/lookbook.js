@@ -13,3 +13,23 @@ $('img[data-enlargable]').addClass('img-enlargable').click(function(){
         $(this).remove();
     }).appendTo('body');
 });
+
+
+$(document).ready(function(){
+            
+    // Check to see if the window is top if not then display button
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('#Back-top').fadeIn();
+        } else {
+            $('#Back-top').fadeOut();
+        }
+    });
+
+    //Click event to scroll to top
+    $('#Back-top').click(function(){
+        $('html, body').animate({scrollTop : 0},'slow');
+        return false;
+    });
+
+});
