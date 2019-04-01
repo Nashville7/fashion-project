@@ -1045,7 +1045,8 @@ margin: auto;
 }
 
 .username input {
-  width: 570px;
+  // width: 570px;
+  width: 41.2vw;
   margin-top: 60px;
   height: 50px;
   border: solid 1px #e6e6e6;
@@ -1054,7 +1055,8 @@ margin: auto;
 }
 
 .phone-number input {
-  width: 570px;
+  // width: 570px;
+  width: 41.2vw;
   height: 50px;
   border: solid 1px #e6e6e6;
   background-color: #ffffff;
@@ -1097,7 +1099,8 @@ textarea::placeholder {
 }
 
 .email input   {
-  width: 570px;
+  // width: 570px;
+  width: 41.2vw;
   height: 50px;
   margin-top: 60px;
   border: solid 1px #e6e6e6;
@@ -1109,7 +1112,8 @@ textarea::placeholder {
 }
 
 .subject input   {
-  width: 570px;
+  // width: 570px;
+  width: 41.2vw;
   position: absolute;
   left: 707px;
   height: 50px;
