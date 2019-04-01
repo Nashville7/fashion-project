@@ -51,6 +51,11 @@
         "jacket"
         "cap"
         "bjacket";
+
+    div {  
+        margin: auto;
+    }
+        
 }
 
 .main-title {
@@ -176,7 +181,6 @@
     width: 265px;
     height: 240px;
 }
-
 
 .main-title2 {
     grid-area: title2;

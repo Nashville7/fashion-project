@@ -1116,8 +1116,8 @@ textarea::placeholder {
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.67;
   letter-spacing: normal;
+  line-height: 1.67;
   text-align: left;
   color: #666666;
   margin-top: 43px; }
@@ -1145,8 +1145,8 @@ textarea::placeholder {
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.4;
   letter-spacing: normal;
+  line-height: 1.4;
   text-align: center;
   color: #666666; }
 
@@ -1533,6 +1533,8 @@ footer {
     grid-template-columns: repeat(1, 1fr);
     margin: auto;
     grid-template-areas: "h2" "jacket" "cap" "bjacket"; }
+    .featured-product div {
+      margin: auto; }
 
   .main-title {
     grid-area: h2;

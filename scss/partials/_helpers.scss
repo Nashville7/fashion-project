@@ -1035,7 +1035,6 @@ h4::before {
 }
 
 // form
-
 .form-container {
   height: 600px;
   width: 100%;
@@ -1047,7 +1046,6 @@ margin: auto;
 }
 
 .username input {
-  // width: 570px;
   width: 41.2vw;
   margin-top: 60px;
   height: 50px;
@@ -1057,7 +1055,6 @@ margin: auto;
 }
 
 .phone-number input {
-  // width: 570px;
   width: 41.2vw;
   height: 50px;
   border: solid 1px #e6e6e6;
@@ -1101,12 +1098,11 @@ textarea::placeholder {
 }
 
 .email input   {
-  // width: 570px;
   width: 41.2vw;
   height: 50px;
   margin-top: 60px;
   border: solid 1px #e6e6e6;
-  background-color: #ffffff;
+  background-color: $main-heading;
   margin-bottom: 30px;
   position: absolute;
   left: 707px;
@@ -1193,11 +1189,8 @@ textarea::placeholder {
   height: 39px;
   font-family: 'Source Sans Pro';
   font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
+  @include sizing;
   line-height: 1.67;
-  letter-spacing: normal;
   text-align: left;
   color: #666666;
   margin-top: 43px;
@@ -1229,11 +1222,8 @@ textarea::placeholder {
   .blog-icons {
     font-family: 'Source Sans Pro';
     font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
+    @include sizing;
     line-height: 1.4;
-    letter-spacing: normal;
     text-align: center;
     color: #666666;
   }
