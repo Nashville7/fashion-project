@@ -11,6 +11,7 @@
     grid-template-columns: repeat(3, 1fr);
     margin: auto;   
     width: 71.375rem;
+    // width: 100%;
     grid-gap: 1rem;
         div {
             overflow: hidden;
@@ -197,7 +198,7 @@
 
 // ____shop______
 
-.well {
+.wella {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 71.375rem;
