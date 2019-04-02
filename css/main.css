@@ -107,7 +107,8 @@
     color: #b84a35; }
 
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  overflow-x: hidden; }
 
 #top {
   color: #ffffff;
