@@ -1512,6 +1512,19 @@ footer {
     display: inline-table;
     margin-left: -224px; }
 
+  #top p span {
+    position: inherit;
+    bottom: 5px;
+    display: table-cell;
+    padding-top: 15px; }
+
+  .up-arrow .fa-arrow-circle-up {
+    font-size: 17px;
+    color: #b84a35;
+    position: absolute;
+    left: 50%;
+    bottom: -20rem; }
+
   .icons p {
     margin-right: 50px;
     font-size: 9px;
