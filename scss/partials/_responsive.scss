@@ -20,8 +20,27 @@
     margin-left: -224px;
 }
 
+
+
+.icons p {
+    margin-right: 50px;
+    font-size: 9px;
+    position: absolute;
+    display: flex;
+    left: 15rem;
+    // right: -40px;
+    bottom: 2px;
+}
+
+#top span {
+    display: flex;
+    font-size: 9px;
+}
+
 .ship p {
-    font-size: 10px;
+
+    font-size: 7px;
+    
 }
 
 .ship-about {

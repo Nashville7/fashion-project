@@ -107,8 +107,7 @@
     color: #b84a35; }
 
 html {
-  scroll-behavior: smooth;
-  overflow-x: hidden; }
+  scroll-behavior: smooth; }
 
 #top {
   color: #ffffff;
@@ -1513,8 +1512,20 @@ footer {
     display: inline-table;
     margin-left: -224px; }
 
+  .icons p {
+    margin-right: 50px;
+    font-size: 9px;
+    position: absolute;
+    display: flex;
+    left: 15rem;
+    bottom: 2px; }
+
+  #top span {
+    display: flex;
+    font-size: 9px; }
+
   .ship p {
-    font-size: 10px; }
+    font-size: 7px; }
 
   .ship-about {
     font-size: 4px;
