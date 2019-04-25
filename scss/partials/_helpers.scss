@@ -1216,6 +1216,15 @@ textarea::placeholder {
   color: #706259;
 }
 
+//blog read more hover effect 
+.read-more-blog:hover {
+color: black;
+}
+
+.blog-link {
+  text-decoration: none;
+}
+
 // bottom information
 .info-blog {
   height: 68px;

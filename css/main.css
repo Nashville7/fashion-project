@@ -1137,6 +1137,12 @@ textarea::placeholder {
   text-align: left;
   color: #706259; }
 
+.read-more-blog:hover {
+  color: black; }
+
+.blog-link {
+  text-decoration: none; }
+
 .info-blog {
   height: 68px;
   background: white; }
