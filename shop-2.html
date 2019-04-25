@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="shopping-page">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +15,9 @@
     <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32"/>
     <!-- Linear icons -->
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
     <title>Shop</title>
 </head>
 <body>
@@ -43,7 +46,7 @@
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li class="lookbook"><a href="lookbook.html">lookbook</a></li>
-                <li class="shop-about"><i class="fas fa-shopping-cart"></i></li>
+                <li class="shop-about"><i class="fas fa-shopping-cart badge badge-notify my-cart-badge my-cart-icon "></i></li>
                 <li class="search-about"><i class="fas fa-search"></i></li>
             </ul>  
         </nav>
@@ -63,55 +66,49 @@
         </div>
     </div>
     <div class="container">
-        <section class="well">
-        <div class="image1" id="image5">
-        </div>
+        <section class="wella">
+        <div class="image1" id="image5"></div>
         <article class="shop-section">
-            <h1 id="text5"></h1>
+            <h1 id="text5"><span class="lnr lnr-heart"></span></h1>
             <p id="price5"></p>
             <p id="description5"></p>
             <p>
-                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i>ADD TO CART</button>
-                <button class="remove-from-cart"><i class="fas fa-shopping-cart"></i>REMOVE FROM CART</button>
+                <button class="add-to-cart btn my-cart-btn" data-id="1" data-name="Brown fur jacket" data-price="900.00" data-quantity="1" data-image="images/fur-jacket.jpeg"><i class="fas fa-shopping-cart"></i>ADD TO CART</button>
             </p>
         </article>
-        <div class="image1" id="image6">
-            </div>
+        
+        <div class="image1" id="image6"></div>
             <article class="shop-section">
-                <h1 id="text6"></h1>
+                <h1 id="text6"><span class="lnr lnr-heart"></span></h1>
                 <p id="price6"></p>
                 <p id="description6"></p>
                 <p>
-                    <button class="add-to-cart"><i class="fas fa-shopping-cart"></i>ADD TO CART</button>
-                    <button class="remove-from-cart"><i class="fas fa-shopping-cart"></i>REMOVE FROM CART</button>
+                    <button class="add-to-cart btn my-cart-btn" data-id="2" data-name="Blue fur Coat" data-price="1400.00" data-quantity="1" data-image="images/beautiful-dress-elegant-1375736.jpg"><i class="fas fa-shopping-cart"></i>ADD TO CART</button>
                 </p>
             </article>
-            <div class="image1" id="image7">
-                </div>
+            <div class="image1" id="image7"></div>
                 <article class="shop-section">
-                    <h1 id="text7"><span class="lnr lnr-heart"></span></h1>
+                    <h1 id="text7"></h1>
                     <p id="price7"></p>
                     <p id="description7"></p>
                     <p>
-                        <button class="add-to-cart"><i class="fas fa-shopping-cart"></i>ADD TO CART</button>
-                        <button class="remove-from-cart"><i class="fas fa-shopping-cart"></i>REMOVE FROM CART</button>
+                        <button class="add-to-cart btn my-cart-btn" data-id="3" data-name="Black Cosy Jacket" data-price="850.00" data-quantity="1" data-image="images/blond-close-up-eyes-449977.jpg"><i class="fas fa-shopping-cart"></i>ADD TO CART</button>
+                      
                     </p>
             </article>
-            <div class="image1" id="image8">
-            </div>
+            <div class="image1" id="image8"></div>
             <article class="shop-section">
                 <h1 id="text8"><span class="lnr lnr-heart"></span></h1>
                 <p id="price8"></p>
-                <p id="description8">p>
+                <p id="description8"></p>
                 <p>
-                    <button class="add-to-cart"><i class="fas fa-shopping-cart"></i>ADD TO CART</button>
-                    <button class="remove-from-cart"><i class="fas fa-shopping-cart"></i>REMOVE FROM CART</button>
+                    <button class="add-to-cart btn my-cart-btn" data-id="4" data-name="Yellow top" data-price="750.00" data-quantity="1" data-image="images/blur-boy-depth-of-field-1183266.jpg"><i class="fas fa-shopping-cart"></i>ADD TO CART</button>
                 </p>
             </article>
     </section>
     <ol class="next-page">
-        <li><a href="shop.html">1</a></li>
-        <li><a class="active" href="shop-2.html">2</a></li>
+        <li><a class="active" href="shop.html">1</a></li>
+        <li><a href="shop-2.html">2</a></li>
         <li><a href="shop-3.html">3</a></li>
         <li><a href="shop-4.html">4</a></li>
         <li>...</li>
@@ -156,7 +153,7 @@
     <footer>
         <p>Copyright © 2019 Designed by nate_nonpareil.And Created by Nashville James All rights reserved.</p>
         <div class="up-arrow">
-            <a href="#Back-top" id="Back-top"><i class="fas fa-arrow-circle-up"></i></a> 
+            <a href="#Back-top"  id="Back-top"><i class="fas fa-arrow-circle-up"></i></a> 
         </div>
     </footer>
     </div>
@@ -183,5 +180,10 @@
             
             });
     </script>
+      <script src="js/jquery-2.2.3.min.js"></script>
+      <script type='text/javascript' src="js/bootstrap.min.js"></script>
+      <script type='text/javascript' src="js/jquery.mycart.js"></script>
+      <script type="text/javascript"></script>
+      <script src="js/cart.js"></script>
 </body>
 </html>
