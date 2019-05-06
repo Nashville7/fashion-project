@@ -40,12 +40,11 @@
   background-color: #a88d7b;
   text-transform: uppercase;
   color: white;
-  transform: translate(-50%, 50%);
   font-size: 12px;
   outline: none;
-  right: -330px;
-  top: -355px;
-  position: relative;
+  right: 1rem;
+  top: 1rem;
+  position: absolute;
   margin: 0;
   border: none; }
 
@@ -74,7 +73,8 @@
   text-align: left;
   color: #a88d7b;
   list-style-type: none;
-  display: inline; }
+  display: inline;
+  margin-left: 16px; }
   .read-more .fa .fa-arrow-right {
     font-size: 15px;
     text-align: left;
@@ -330,26 +330,28 @@ i {
   font-weight: 600;
   color: #999999; }
 
-.black-cap h3 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 600;
-  text-align: center;
-  font-size: 20px;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.4;
-  letter-spacing: normal;
-  color: #333333; }
-.black-cap p {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 600;
-  text-align: center;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 3.2;
-  letter-spacing: normal;
-  font-size: 15px;
-  color: #999999; }
+.black-cap {
+  position: relative; }
+  .black-cap h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.4;
+    letter-spacing: normal;
+    color: #333333; }
+  .black-cap p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3.2;
+    letter-spacing: normal;
+    font-size: 15px;
+    color: #999999; }
 
 .blue-jean-jacket h3 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -1515,10 +1517,9 @@ footer {
 /* Responsive Design */
 /* Mobile Devices */
 /* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
-  .navbar ul {
-    display: inline-table;
-    margin-left: -224px; }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  header {
+    background-position: center; }
 
   .navbar li {
     padding: 6px; }
@@ -1536,6 +1537,9 @@ footer {
     left: -636%;
     bottom: -74rem; }
 
+  .icons {
+    width: 0; }
+
   .icons p {
     margin-right: 50px;
     font-size: 9px;
@@ -1547,6 +1551,9 @@ footer {
   #top span {
     display: flex;
     font-size: 9px; }
+
+  .ship {
+    width: 100%; }
 
   .ship p {
     font-size: 7px; }
@@ -1661,8 +1668,6 @@ footer {
     transform: translate(-120%, 50%);
     font-size: 12px;
     outline: none;
-    right: -330px;
-    top: -355px;
     margin: 0;
     border: none;
     position: absolute; }
@@ -1671,6 +1676,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin: auto;
+    width: 100%;
     grid-gap: 1rem;
     margin-top: -75px;
     grid-template-areas: "title2" "men" "woman"; }
@@ -1708,8 +1714,10 @@ footer {
   .myblog {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    width: 71.375rem;
+    width: 100%;
     margin: auto; }
+    .myblog div {
+      width: 100%; }
 
   .parallax {
     width: 265px;
@@ -1775,9 +1783,11 @@ footer {
     text-align: left;
     color: #666666;
     text-align: left;
-    width: 85vw; }
+    width: 85vw;
+    padding-left: 0px; }
     .blogtext p {
-      width: 85vw; }
+      width: 85vw;
+      margin-left: 16px; }
 
   .parallax {
     display: grid;

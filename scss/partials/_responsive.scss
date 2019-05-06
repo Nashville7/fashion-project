@@ -11,13 +11,17 @@
 /* Portrait and Landscape */
 @media only screen 
     and (min-device-width: 320px) 
-    and (max-device-width: 767px)
+    and (max-device-width: 480px)
      {
 
 .navbar ul {
    
-    display: inline-table;
-    margin-left: -224px;
+    // display: inline-table;
+    // margin-left: -224px;
+}
+
+header {
+    background-position: center;
 }
 
 .navbar li {
@@ -39,6 +43,10 @@
     bottom: -74rem;
 }
 
+.icons {
+    width: 0;
+}
+
 .icons p {
     margin-right: 50px;
     font-size: 9px;
@@ -52,6 +60,10 @@
 #top span {
     display: flex;
     font-size: 9px;
+}
+
+.ship {
+    width: 100%;
 }
 
 .ship p {
@@ -201,7 +213,6 @@
 }
 
 // new sign on photo
-
 .new {
     font-family: 'Source Sans Pro', sans-serif;
     width: 50px;
@@ -213,20 +224,17 @@
     transform: translate(-120%, 50%);
     font-size: 12px;
     outline: none;
-    right: -330px;
-    top: -355px;
     margin: 0;
     border: none;
     position: absolute;
 }
 
-
 // _______end of the featured product____
-
 .new-collection {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin: auto;
+    width: 100%;
     grid-gap: 1rem;
     margin-top: -75px;
     grid-template-areas: 
@@ -234,7 +242,6 @@
         "men"
         "woman";
 
-       
         img {
             width: 100%;
         }
@@ -266,7 +273,6 @@
     grid-area: men;
     text-align: center;
     width: 100vw;
-
 }
 
 .woman {
@@ -278,8 +284,12 @@
 .myblog {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    width: 71.375rem;
+    // width: 71.375rem;
+    width: 100%;
     margin: auto;
+        div {
+            width: 100%;
+        }
 }
 
 .parallax {
@@ -356,9 +366,10 @@
     color: #666666;
     text-align: left;
     width: 85vw;
-
+    padding-left: 0px;
     p {
         width: 85vw;
+        margin-left: 16px;
     }
 }
 
