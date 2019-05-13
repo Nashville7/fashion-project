@@ -468,10 +468,42 @@ footer {
 
     }
 }
+// about 
 
+.who-we-are div {
+    width: 85vw;
+    margin-left: 7px;
+}
 
-
+.who-we-are-text {
+    font-size: 13px;
   }
+
+  .meet-the-team {
+      display: block;
+      width: 85vw;
+  }
+
+  .meet-the-team-container {
+    height: 2007px;
+  }
+
+  .Nashville {
+    margin-top: -4rem;
+  }
+
+  .what-we-do {
+    display: block;
+  }
+
+  .who-we-are {
+    display: block;
+  }
+
+  #who-we-are-container {
+    height: 1000px;
+  }
+}
 
   /* Responsive Design */
     /*Tablets*/
