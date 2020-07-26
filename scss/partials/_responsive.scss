@@ -1,147 +1,126 @@
 /* Media Queries -------------------- */
 
-
 // How to Use CSS to Resize Your (Foreground) Images While Preserving Their Aspect Ratio
 // The simplest and most painless way to quickly get all your existing foreground pictures to fit a mobile screen is to resize them with CSS. This can easily be done with the following rules.
 
-
 /* Responsive Design */
 
-    /* Mobile Devices */
+/* Mobile Devices */
 /* Portrait and Landscape */
-@media only screen 
-    and (min-device-width: 320px) 
-    and (max-device-width: 480px)
-     {
-
-.navbar ul {
-   
-    // display: inline-table;
-    // margin-left: -224px;
-}
-
-header {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  header {
     background-position: center;
-}
+  }
 
-.navbar li {
+  .navbar li {
     padding: 6px;
-}
+  }
 
-#top p span {
+  #top p span {
     position: inherit;
     bottom: 5px;
     display: table-cell;
     padding-top: 15px;
-}
+  }
 
-.up-arrow .fa-arrow-circle-up {
+  .up-arrow .fa-arrow-circle-up {
     font-size: 17px;
     color: #b84a35;
     position: absolute;
     left: -636%;
     bottom: -74rem;
-}
+  }
 
-.icons {
+  .icons {
     width: 0;
-}
+  }
 
-.icons p {
+  .icons p {
     margin-right: 50px;
     font-size: 9px;
     position: absolute;
     display: flex;
     left: 15rem;
-    // right: -40px;
     bottom: 2px;
-}
+  }
 
-#top span {
+  #top span {
     display: flex;
     font-size: 9px;
-}
+  }
 
-.ship {
+  .ship {
     width: 100%;
-}
+  }
 
-.ship p {
-
+  .ship p {
     font-size: 7px;
-    
-}
+  }
 
-.ship-about {
+  .ship-about {
     font-size: 4px;
     float: left;
     width: 0;
-}
+  }
 
-
-.fashion-heading  {
+  .fashion-heading {
     p {
-        width: 46vw !important;
+      width: 46vw !important;
     }
 
     h1 {
-        font-size: 29px;
-    }   
-}
-.lookbook {
+      font-size: 29px;
+    }
+  }
+  .lookbook {
     width: 100%;
     display: block;
     margin: auto;
-}
+  }
 
-.fashion-heading-about h1 {
+  .fashion-heading-about h1 {
     height: 3px;
-    font-family: 'Source Sans Pro';
+    font-family: "Source Sans Pro";
     font-size: 37px;
-}
+  }
 
-// ________start of featured product___
-.featured-product {
+  // ________start of featured product___
+  .featured-product {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin: auto;   
+    margin: auto;
     width: 100vw;
     grid-template-areas:
-        "h2" 
-        "jacket"
-        "cap"
-        "bjacket";
+      "h2"
+      "jacket"
+      "cap"
+      "bjacket";
 
-        img {
-            width: 100%;
-        }
-
-    div {  
-        // margin: auto;
-        // max-width: 100vw;
-        width: 100%;
-        object-fit: contain;
+    img {
+      width: 100%;
     }
-        
-}
 
-.main-title {
+    div {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .main-title {
     grid-area: h2;
     text-align: center;
     width: 99vw;
     font-size: 21px;
     margin: 20px 0;
-}
+  }
 
-.blue-jacket {
+  .blue-jacket {
     grid-area: jacket;
     text-align: center;
-    // width: 100vw;
-    // margin: 3.5vw;
-}
+  }
 
-.blue-jacket h3 {
-    font-family: 'Source Sans Pro', sans-serif;
+  .blue-jacket h3 {
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 20px;
     font-weight: 600;
     font-style: normal;
@@ -149,10 +128,10 @@ header {
     line-height: 2.4;
     letter-spacing: normal;
     color: #333333;
-}
+  }
 
-.blue-jacket p {
-    font-family: 'Source Sans Pro', sans-serif;
+  .blue-jacket p {
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: 600;
     font-style: normal;
     font-stretch: normal;
@@ -162,59 +141,57 @@ header {
     font-weight: 600;
     text-align: none;
     color: #999999;
-}
+  }
 
-.black-cap {
+  .black-cap {
     grid-area: cap;
     text-align: center;
     width: 100vw;
     // margin: 3.5vw;
-}
+  }
 
-.black-cap {
-    
+  .black-cap {
     h3 {
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 20px;
-        font-weight: 600;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 2.4;
-        letter-spacing: normal;
-        color: #333333;
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2.4;
+      letter-spacing: normal;
+      color: #333333;
     }
 
     p {
-        text-align: center;
-        width: 97vw;
-        font-size: 21px;
+      text-align: center;
+      width: 97vw;
+      font-size: 21px;
     }
-   
-}
+  }
 
-.blue-jean-jacket {
+  .blue-jean-jacket {
     grid-area: bjacket;
     text-align: center;
     width: 100vw;
     // margin: 3.5vw
 
     p {
-        text-align: center;
-        width: 89vw;
-        font-size: 21px;
-        width: 97vw;
-        font-size: 21px;
+      text-align: center;
+      width: 89vw;
+      font-size: 21px;
+      width: 97vw;
+      font-size: 21px;
     }
-}
+  }
 
-.featured-product-img {
+  .featured-product-img {
     width: 370px;
     height: 360px;
-}
+  }
 
-// new sign on photo
-.new {
-    font-family: 'Source Sans Pro', sans-serif;
+  // new sign on photo
+  .new {
+    font-family: "Source Sans Pro", sans-serif;
     width: 50px;
     height: 20px;
     border-radius: 20px;
@@ -227,38 +204,38 @@ header {
     margin: 0;
     border: none;
     position: absolute;
-}
+  }
 
-// _______end of the featured product____
-.new-collection {
+  // _______end of the featured product____
+  .new-collection {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin: auto;
     width: 100%;
     grid-gap: 1rem;
     margin-top: -75px;
-    grid-template-areas: 
-        "title2"
-        "men"
-        "woman";
+    grid-template-areas:
+      "title2"
+      "men"
+      "woman";
 
-        img {
-            width: 100%;
-        }
-
-    div {  
-        height: 241px;
-        width: 100%;
-        object-fit: contain;
+    img {
+      width: 100%;
     }
-}
 
-.new-collection-img {
+    div {
+      height: 241px;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .new-collection-img {
     width: 265px;
     height: 240px;
-}
+  }
 
-.main-title2 {
+  .main-title2 {
     grid-area: title2;
     text-align: center;
     padding-top: 621px;
@@ -267,100 +244,99 @@ header {
     margin: 20px 0;
     font-size: 20px;
     padding-top: 975px;
-}
+  }
 
-.men {
+  .men {
     grid-area: men;
     text-align: center;
     width: 100vw;
-}
+  }
 
-.woman {
+  .woman {
     grid-area: woman;
     text-align: center;
     width: 100vw;
-}
+  }
 
-.myblog {
+  .myblog {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    // width: 71.375rem;
     width: 100%;
     margin: auto;
-        div {
-            width: 100%;
-        }
-}
+    div {
+      width: 100%;
+    }
+  }
 
-.parallax {
+  .parallax {
     width: 265px;
     height: 240px;
     text-align: center;
-    width: 92vw; 
-}
+    width: 92vw;
+  }
 
-.parallax p {
+  .parallax p {
     height: 38px;
     width: 291px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     text-align: center;
     width: 100vw;
     font-size: 12px;
     margin-left: 0vw;
     margin-top: -127px !important;
     margin-top: 1108px;
-}
+  }
 
-.street {
-    margin-left:0;
+  .street {
+    margin-left: 0;
     margin-top: -193px;
     font-size: 31px;
     text-align: center;
     width: 102vw;
-}
+  }
 
-.view-button {
+  .view-button {
     left: -1vw;
     margin: auto;
     bottom: 0vh;
-}
+  }
 
-#myblog-container {
+  #myblog-container {
     margin-top: 55px;
     height: 816px;
-}
+  }
 
-.blog-index-img {
+  .blog-index-img {
     width: 265px;
     height: 240px;
     text-align: center;
     width: 100vw;
-}
+  }
 
-.blog-name {
+  .blog-name {
     text-transform: uppercase;
     text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     color: #333333;
     position: relative;
     font-size: 21px !important;
     margin-top: 42px;
     margin-bottom: 42px;
-}
+  }
 
-.blogtext h4 {
+  .blogtext h4 {
     text-align: center;
     font-size: 21px;
     text-align: center;
-    width: 85vw; 
-}
+    width: 85vw;
+  }
 
-.myblog img {
+  .myblog img {
     max-width: 100vw;
-}
+  }
 
-.blogtext {
-    font-family: 'Source Sans Pro', sans-serif;
+  .blogtext {
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 15px;
     text-align: left;
     color: #666666;
@@ -368,62 +344,63 @@ header {
     width: 85vw;
     padding-left: 0px;
     p {
-        width: 85vw;
-        margin-left: 16px;
+      width: 85vw;
+      margin-left: 16px;
     }
-}
+  }
 
-.parallax {
+  .parallax {
     display: grid;
     grid-template-columns: 1fr;
     width: 100%;
     margin-top: 1108px !important;
-}
+  }
 
-// Instagram grid
-.info {
+  // Instagram grid
+  .info {
     display: grid;
     grid-template-columns: repeat(1, auto);
     padding-top: 60px;
     justify-items: center;
     margin: auto;
     height: 425px;
-    grid-template-areas: 
-        "location"
-        "offer"
-        "unisex"
-        "heading"
-        "insta"
-        "insta"
-}
+    grid-template-areas:
+      "location"
+      "offer"
+      "unisex"
+      "heading"
+      "insta"
+      "insta";
+  }
 
-.full-location {
+  .full-location {
     grid-area: location;
     margin-left: 10vw;
 
-        h2 {
-            margin-left: -13px;
-        }
-}
+    h2 {
+      margin-left: -13px;
+    }
+  }
 
-.full-offer {
+  .full-offer {
     grid-area: offer;
-}
+  }
 
-.full-unisex {
+  .full-unisex {
     grid-area: unisex;
     background-color: #2d2827;
-}
+  }
 
-.myheadings {
+  .myheadings {
     grid-area: heading;
     text-align: center;
     width: 100vw;
-}
+  }
 
-.full-offer p, .full-unisex p {
+  .full-offer p,
+  .full-unisex p {
     height: 11px;
-    font-family: 'Source Sans Pro';
+    font-family: "Source Sans Pro";
     font-size: 15px;
     font-weight: normal;
     font-style: normal;
@@ -434,54 +411,50 @@ header {
     color: #999999;
     text-align: center;
     width: 100vw;
-}
+  }
 
-.instagram-container {
+  .instagram-container {
     background-color: #2d2827;
-}
+  }
 
-.insta-grid {
+  .insta-grid {
     grid-area: insta;
+  }
 
-}
-
-
-.insta-grid {
+  .insta-grid {
     display: grid;
-    grid-template-columns: repeat(4, 5rem);
+    grid-template-columns: repeat(4, 4fr);
     text-align: center;
     grid-gap: 0;
-    
-    img {
-        width: 80px;
-        height: 80px;
-        object-fit: cover;
-    }
-}
 
-footer {
+    img {
+      width: 100%;
+      height: 80px;
+      object-fit: cover;
+    }
+  }
+
+  footer {
     margin-top: 437px;
 
     p {
-        margin-top: -4vh;
-    
-
+      margin-top: -4vh;
     }
-}
-// about 
+  }
+  // about
 
-.who-we-are div {
+  .who-we-are div {
     width: 85vw;
     margin-left: 7px;
-}
+  }
 
-.who-we-are-text {
+  .who-we-are-text {
     font-size: 13px;
   }
 
   .meet-the-team {
-      display: block;
-      width: 85vw;
+    display: block;
+    width: 85vw;
   }
 
   .meet-the-team-container {
@@ -505,107 +478,91 @@ footer {
   }
 }
 
-  /* Responsive Design */
-    /*Tablets*/
-@media only screen 
-    and (min-device-width: 768px) 
-    and (max-device-width: 1023px) 
-    and (-webkit-min-device-pixel-ratio: 1) {
-    .featured-product {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin: auto;   
-        width: 71.375rem;
-        grid-gap: 1rem;
-        grid-template-areas: 
-            "title"
-            "bluej"
-            "cap"
-            "bjj"; 
-    }
+/* Responsive Design */
+/*Tablets*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) {
+  .featured-product {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+    width: 71.375rem;
+    grid-gap: 1rem;
+    grid-template-areas:
+      "title"
+      "bluej"
+      "cap"
+      "bjj";
+  }
 
-    .main-title {
-        grid-area: title;
-        text-align: center;
-        width: 92vw;
-    }
+  .main-title {
+    grid-area: title;
+    text-align: center;
+    width: 92vw;
+  }
 
-    .blue-jacket {
-        grid-area: bluej;
-        text-align: center;
-        width: 92vw;
-        
-    }
+  .blue-jacket {
+    grid-area: bluej;
+    text-align: center;
+    width: 92vw;
+  }
 
-    .blue-cap {
-        grid-area: cap;
-        text-align: center;
-        width: 92vw;
-    }
+  .blue-cap {
+    grid-area: cap;
+    text-align: center;
+    width: 92vw;
+  }
 
-    .blue-jean-jacket {
-        grid-area: bjj;
-        text-align: center;
-        width: 92vw;
-    }
+  .blue-jean-jacket {
+    grid-area: bjj;
+    text-align: center;
+    width: 92vw;
+  }
 
-    .new-collection-img {
-        text-align: center;
-        width: 92vw;
-    }
+  .new-collection-img {
+    text-align: center;
+    width: 92vw;
+  }
 
-    // ____end of featured product___
+  // ____end of featured product___
 
+  // start of new-collection
 
-    // start of new-collection
+  .new-collection {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+    width: 71.375rem;
+    grid-gap: 1rem;
+    grid-template-areas:
+      "title2"
+      "men"
+      "woman";
+  }
 
-    .new-collection {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin: auto;   
-        width: 71.375rem;
-        grid-gap: 1rem;
-        grid-template-areas: 
-            "title2"
-            "men"
-            "woman";
-    }
+  .main-title2 {
+    grid-area: title2;
+    text-align: center;
+    width: 92vw;
+  }
 
-    .main-title2 {
-        grid-area: title2;
-        text-align: center;
-        width: 92vw;
-    }
+  .men {
+    grid-area: men;
+    text-align: center;
+    width: 106vw;
+  }
 
-    .men {
-        grid-area: men;
-        text-align: center;
-        width: 106vw;
-    }
+  .woman {
+    grid-area: woman;
+    text-align: center;
+    width: 106vw;
+  }
+}
 
-    .woman {
-        grid-area: woman;
-        text-align: center;
-        width: 106vw;
-    }
-    
- }
-    
- /* Responsive Design
+/* Responsive Design
     /*Desktop*/
- @media screen 
-    and (min-device-width: 1024px) 
-    and (max-device-width: 1600px) 
-    and (-webkit-min-device-pixel-ratio: 1) { 
-        .full-container {
-            width: 100vw;
-            max-width: 100vw;
-        }
-        // .blue-jacket div {
-        //     width: 100%;
-        // }
-        // .black-cap div {
-        //     width: 100%;
-        // }
-        
- }
+@media screen and (min-device-width: 1024px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .full-container {
+    width: 100vw;
+    max-width: 100vw;
+  }
+}
